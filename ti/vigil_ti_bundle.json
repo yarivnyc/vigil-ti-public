@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "bundle_id": "2026-07-06",
+  "published_at": "2026-07-06T12:00:00Z",
+  "bulletins": [
+    {
+      "id": "military-debt-relief-2026-07",
+      "title": "Military Debt Forgiveness Scams",
+      "summary": "Scammers target service members and veterans with phone calls offering fake military debt forgiveness or relief programs. They pressure victims into paying them directly under the guise of resolving their outstanding loans.",
+      "severity": "high",
+      "source_name": "FTC",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/07/can-you-spot-debt-relief-scams-target-military",
+      "phrases": [
+        "military debt forgiveness",
+        "enroll in a special military debt",
+        "forgive your military debt",
+        "military debt relief program",
+        "military debt consolidation",
+        "reduce your military debt"
+      ]
+    },
+    {
+      "id": "jury-duty-arrest-2026-06",
+      "title": "Fake Jury Duty Arrest Threats",
+      "summary": "Scammers call and text victims claiming they missed jury duty and face immediate arrest. They send official-looking fake warrants and demand immediate payment of a fine to clear the warrant.",
+      "severity": "high",
+      "source_name": "FTC",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty",
+      "phrases": [
+        "missed jury duty",
+        "warrant out for your arrest",
+        "pay to avoid arrest",
+        "fine for missing jury duty",
+        "arrest warrant for jury duty",
+        "failure to appear for jury"
+      ]
+    },
+    {
+      "id": "ftc-impersonator-id-2026-06",
+      "title": "FTC Impersonators Sending Fake Photo IDs",
+      "summary": "Scammers text victims pretending to be FTC agents offering to help recover money lost in previous scams. In a new twist, they text fake photo IDs to 'verify' their identity and gain the victim's trust.",
+      "severity": "high",
+      "source_name": "FTC",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/06/real-ftc-employee-wont-text-you-their-photo-id-verify-their-identity",
+      "phrases": [
+        "FTC agent",
+        "verify my identity",
+        "recover money you lost",
+        "refund from the FTC",
+        "federal trade commission agent",
+        "texting you my photo ID"
+      ]
+    }
+  ],
+  "keyword_delta": {
+    "add_phrases": [
+      "military debt forgiveness",
+      "military debt relief program",
+      "missed jury duty",
+      "warrant out for your arrest",
+      "pay to avoid arrest",
+      "FTC agent",
+      "recover money you lost",
+      "verify my identity"
+    ],
+    "add_compounds": [
+      {
+        "label": "jury duty scam",
+        "all": [
+          "jury",
+          "duty",
+          "arrest"
+        ]
+      },
+      {
+        "label": "military debt scam",
+        "all": [
+          "military",
+          "debt",
+          "forgiveness"
+        ]
+      },
+      {
+        "label": "FTC impersonator",
+        "all": [
+          "FTC",
+          "agent",
+          "verify"
+        ]
+      }
+    ]
+  },
+  "gemini_context_snippet": "This week's focus is on high-pressure impersonation tactics, including fake FTC agents texting photo IDs to 'verify' identity and offer scam recovery, callers threatening arrest for missed jury duty, and fraudulent military debt forgiveness offers targeting service members."
+}

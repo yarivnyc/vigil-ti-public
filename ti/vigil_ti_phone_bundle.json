@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "bundle_id": "2026-07-06",
+  "published_at": "2026-07-06T12:00:00Z",
+  "phone_entries": [
+    {
+      "e164": "12025550199",
+      "label": "QA test number · Vigil",
+      "source": "qa_fixture",
+      "note": "Use in Simulator Call Directory testing."
+    },
+    {
+      "e164": "12173948723",
+      "label": "FTC DNC robocall · Calls pretending to be government, businesses…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-calls-pretending-to-be-government-busine",
+      "note": "22 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "12173948747",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "17 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13214991638",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "37 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13214991648",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "15 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13214991732",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "93 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13214991734",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "72 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13214991777",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "73 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13214991813",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "60 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "16467220144",
+      "label": "FTC DNC robocall · Medical & prescriptions",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-medical-prescriptions",
+      "note": "28 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18004387165",
+      "label": "Possible scam · Vigil",
+      "source": "curated_robocall",
+      "trend_id": "imposter-trends-2026-05",
+      "note": "Example IRS-impersonation robocall pattern — replace/expand via TI pipeline."
+    },
+    {
+      "e164": "18336625708",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "130 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18336625846",
+      "label": "FTC DNC robocall · Other",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-other",
+      "note": "17 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18445020839",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "27 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18445151257",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "20 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18553572047",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "24 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18555802449",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "56 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18555835729",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "24 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18666661320",
+      "label": "FTC DNC robocall · Other",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-other",
+      "note": "15 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18667714607",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "51 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18667715357",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "37 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18773721228",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "63 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18775569255",
+      "label": "FTC DNC robocall · Other",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-other",
+      "note": "15 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18775783025",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "26 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18882691541",
+      "label": "FTC DNC robocall · Calls pretending to be government, businesses…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-calls-pretending-to-be-government-busine",
+      "note": "20 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18886943165",
+      "label": "Possible scam · Vigil",
+      "source": "curated_robocall",
+      "trend_id": "credit-rate-scam-2026-04"
+    },
+    {
+      "e164": "18889092345",
+      "label": "Reported telemarketer · Vigil",
+      "source": "curated_robocall"
+    },
+    {
+      "e164": "18889120080",
+      "label": "FTC DNC robocall · Other",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-other",
+      "note": "18 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18889123338",
+      "label": "FTC DNC robocall · Other",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-other",
+      "note": "15 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "19377275676",
+      "label": "Possible scam · Vigil",
+      "source": "community_report",
+      "trend_id": "marketplace-zelle-reddit-2026-07",
+      "note": "r/Scams — fake marketplace Zelle buyer"
+    }
+  ]
+}

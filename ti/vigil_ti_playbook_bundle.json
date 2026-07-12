@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "bundle_id": "2026-07-12",
+  "published_at": "2026-07-12T12:00:00Z",
+  "notes": "Over-the-air playbook scripts (roadmap I9). Only additive: extends the hardcoded on-device playbooks. Travel section motivated by State-Dept-style travel advisories bundling tourist scams. No physical-safety claims.",
+  "playbooks": {
+    "travel": {
+      "context_cues": [
+        "airport transfer",
+        "airport pickup",
+        "day trip",
+        "shore excursion",
+        "dive trip",
+        "travel insurance",
+        "trip protection",
+        "e visa",
+        "evisa"
+      ],
+      "hits": [
+        {
+          "label": "airline cancellation rebooking fee scam",
+          "all": ["flight", "cancelled", "rebooking fee"],
+          "high_confidence": true
+        },
+        {
+          "label": "fake airline refund via off-official channel",
+          "all": ["airline", "refund", "gift card"],
+          "high_confidence": true
+        },
+        {
+          "label": "vacation club / timeshare exit advance fee",
+          "all": ["timeshare", "exit", "upfront fee"],
+          "high_confidence": true
+        },
+        {
+          "label": "travel-insurance upfront claim fee",
+          "all": ["travel insurance", "claim", "processing fee"],
+          "high_confidence": false
+        }
+      ],
+      "gemini_snippet": "[TRAVEL_OTA] Recent traveler-targeted scripts: airline 'cancelled flight' rebooking-fee texts, fake airline refunds pushed to gift cards, timeshare-exit upfront fees, and travel-insurance claim 'processing fees'. Treat upfront fees, gift-card/wire refunds, and off-official-channel airline/booking support as high risk; tell the user to verify via the airline app or the number on their ticket."
+    },
+    "marketplace": {
+      "context_cues": [],
+      "hits": [],
+      "gemini_snippet": ""
+    },
+    "rental": {
+      "context_cues": [],
+      "hits": [],
+      "gemini_snippet": ""
+    }
+  }
+}
