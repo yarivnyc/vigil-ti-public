@@ -108,6 +108,54 @@
         }
       ],
       "gemini_snippet": "[DELIVERY_OTA] Smishing: 'your package is held, pay a small customs/redelivery fee via this link.' Carriers never text fee links; track only in the official app."
+    },
+    "romance": {
+      "context_cues": ["soulmate", "deployed overseas"],
+      "hits": [
+        {
+          "label": "romance partner asks for gift cards",
+          "all": ["my love", "gift card", "send"],
+          "high_confidence": true
+        },
+        {
+          "label": "overseas emergency travel fee romance",
+          "all": ["stuck", "overseas", "wire"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[ROMANCE_OTA] Love-bombing then money/gift-card asks, overseas emergency scripts, and crypto pitches from dating contacts. Never send money to someone you have not met in person."
+    },
+    "government": {
+      "context_cues": ["tax warrant", "ssn suspended"],
+      "hits": [
+        {
+          "label": "irs gift card tax settlement",
+          "all": ["irs", "gift card", "taxes"],
+          "high_confidence": true
+        },
+        {
+          "label": "ssa ssn suspended verify now",
+          "all": ["social security", "suspended", "verify"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[GOV_OTA] IRS/SSA impersonators demand gift cards or crypto and threaten arrest or 'SSN suspended'. Real agencies never ask for gift cards; use only official .gov channels."
+    },
+    "charity": {
+      "context_cues": ["hurricane relief", "disaster fund"],
+      "hits": [
+        {
+          "label": "disaster relief gift card donation",
+          "all": ["donate", "hurricane", "gift card"],
+          "high_confidence": true
+        },
+        {
+          "label": "fake red cross crypto donation",
+          "all": ["red cross", "bitcoin", "donate"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[CHARITY_OTA] Fake disaster-relief and Red Cross appeals that demand gift cards or crypto. Give only via official sites you type yourself."
     }
   }
 }
