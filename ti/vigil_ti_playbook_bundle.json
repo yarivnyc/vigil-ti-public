@@ -49,6 +49,27 @@
       "context_cues": [],
       "hits": [],
       "gemini_snippet": ""
+    },
+    "job": {
+      "context_cues": [
+        "part time job",
+        "remote position",
+        "task based",
+        "data entry job"
+      ],
+      "hits": [
+        {
+          "label": "task app requires deposit to unlock earnings",
+          "all": ["complete tasks", "deposit", "withdraw"],
+          "high_confidence": true
+        },
+        {
+          "label": "pay upfront for job training or equipment",
+          "all": ["training fee", "start"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[JOB_OTA] Watch for task/commission apps that require a deposit or 'recharge' to withdraw, recruiters moving to WhatsApp/Telegram, and any upfront fee for training, equipment, or a background check. Real jobs never charge to get hired."
     }
   }
 }
