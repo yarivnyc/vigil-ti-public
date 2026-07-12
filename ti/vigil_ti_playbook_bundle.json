@@ -70,6 +70,44 @@
         }
       ],
       "gemini_snippet": "[JOB_OTA] Watch for task/commission apps that require a deposit or 'recharge' to withdraw, recruiters moving to WhatsApp/Telegram, and any upfront fee for training, equipment, or a background check. Real jobs never charge to get hired."
+    },
+    "tech_support": {
+      "context_cues": ["subscription renewal", "your device is at risk"],
+      "hits": [
+        {
+          "label": "refund overpayment via remote access",
+          "all": ["refund", "remote access", "send back"],
+          "high_confidence": true
+        },
+        {
+          "label": "pay tech support in gift cards",
+          "all": ["gift card", "computer"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[TECH_OTA] Recent tech-support scams: fake antivirus/subscription 'refunds' that need remote access, and gift-card demands to fix a device. Real companies never cold-call about viruses or refunds."
+    },
+    "investment": {
+      "context_cues": ["signals group", "trading mentor"],
+      "hits": [
+        {
+          "label": "withdrawal blocked until tax paid",
+          "all": ["withdraw", "tax", "pay"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern: profits shown but a 'tax' or 'fee' is demanded before withdrawal. Paying to withdraw is always a scam."
+    },
+    "delivery": {
+      "context_cues": ["evri", "usps informed delivery"],
+      "hits": [
+        {
+          "label": "customs fee to release package via link",
+          "all": ["customs fee", "package", "link"],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "[DELIVERY_OTA] Smishing: 'your package is held, pay a small customs/redelivery fee via this link.' Carriers never text fee links; track only in the official app."
     }
   }
 }
