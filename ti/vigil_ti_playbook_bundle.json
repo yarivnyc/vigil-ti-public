@@ -1,8 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-12",
-  "published_at": "2026-07-12T12:00:00Z",
-  "notes": "Over-the-air playbook scripts (roadmap I9). Only additive: extends the hardcoded on-device playbooks. Travel section motivated by State-Dept-style travel advisories bundling tourist scams. No physical-safety claims.",
+  "bundle_id": "2026-07-22",
+  "published_at": "2026-07-22T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -19,22 +18,38 @@
       "hits": [
         {
           "label": "airline cancellation rebooking fee scam",
-          "all": ["flight", "cancelled", "rebooking fee"],
+          "all": [
+            "flight",
+            "cancelled",
+            "rebooking fee"
+          ],
           "high_confidence": true
         },
         {
           "label": "fake airline refund via off-official channel",
-          "all": ["airline", "refund", "gift card"],
+          "all": [
+            "airline",
+            "refund",
+            "gift card"
+          ],
           "high_confidence": true
         },
         {
           "label": "vacation club / timeshare exit advance fee",
-          "all": ["timeshare", "exit", "upfront fee"],
+          "all": [
+            "timeshare",
+            "exit",
+            "upfront fee"
+          ],
           "high_confidence": true
         },
         {
           "label": "travel-insurance upfront claim fee",
-          "all": ["travel insurance", "claim", "processing fee"],
+          "all": [
+            "travel insurance",
+            "claim",
+            "processing fee"
+          ],
           "high_confidence": false
         }
       ],
@@ -42,13 +57,39 @@
     },
     "marketplace": {
       "context_cues": [],
-      "hits": [],
+      "hits": [
+        {
+          "label": "Marketplace fake Zelle buyer (Reddit reports)",
+          "all": [
+            "business user paid you",
+            "business zelle account",
+            "won t call"
+          ],
+          "high_confidence": true
+        }
+      ],
       "gemini_snippet": ""
     },
     "rental": {
-      "context_cues": [],
-      "hits": [],
-      "gemini_snippet": ""
+      "context_cues": [
+        "rental property",
+        "facebook marketplace",
+        "zillow",
+        "realtor.com",
+        "affordable rental"
+      ],
+      "hits": [
+        {
+          "label": "fake rental listing deposit scam",
+          "all": [
+            "rental property",
+            "deposit fee",
+            "showing the actual property"
+          ],
+          "high_confidence": true
+        }
+      ],
+      "gemini_snippet": "Warn users about rental property listings demanding deposit fees before allowed to physically view the property."
     },
     "job": {
       "context_cues": [
@@ -60,98 +101,204 @@
       "hits": [
         {
           "label": "task app requires deposit to unlock earnings",
-          "all": ["complete tasks", "deposit", "withdraw"],
+          "all": [
+            "complete tasks",
+            "deposit",
+            "withdraw"
+          ],
           "high_confidence": true
         },
         {
           "label": "pay upfront for job training or equipment",
-          "all": ["training fee", "start"],
+          "all": [
+            "training fee",
+            "start"
+          ],
           "high_confidence": true
         }
       ],
       "gemini_snippet": "[JOB_OTA] Watch for task/commission apps that require a deposit or 'recharge' to withdraw, recruiters moving to WhatsApp/Telegram, and any upfront fee for training, equipment, or a background check. Real jobs never charge to get hired."
     },
     "tech_support": {
-      "context_cues": ["subscription renewal", "your device is at risk"],
+      "context_cues": [
+        "subscription renewal",
+        "your device is at risk"
+      ],
       "hits": [
         {
           "label": "refund overpayment via remote access",
-          "all": ["refund", "remote access", "send back"],
+          "all": [
+            "refund",
+            "remote access",
+            "send back"
+          ],
           "high_confidence": true
         },
         {
           "label": "pay tech support in gift cards",
-          "all": ["gift card", "computer"],
+          "all": [
+            "gift card",
+            "computer"
+          ],
           "high_confidence": true
         }
       ],
       "gemini_snippet": "[TECH_OTA] Recent tech-support scams: fake antivirus/subscription 'refunds' that need remote access, and gift-card demands to fix a device. Real companies never cold-call about viruses or refunds."
     },
     "investment": {
-      "context_cues": ["signals group", "trading mentor"],
+      "context_cues": [
+        "signals group",
+        "trading mentor",
+        "liquidate your assets",
+        "buy gold",
+        "precious metals",
+        "safe storage",
+        "gold bars"
+      ],
       "hits": [
         {
           "label": "withdrawal blocked until tax paid",
-          "all": ["withdraw", "tax", "pay"],
+          "all": [
+            "withdraw",
+            "tax",
+            "pay"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "gold bar courier safe storage scam",
+          "all": [
+            "liquidate your assets",
+            "buy gold",
+            "vault to protect it"
+          ],
           "high_confidence": true
         }
       ],
       "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern: profits shown but a 'tax' or 'fee' is demanded before withdrawal. Paying to withdraw is always a scam."
     },
     "delivery": {
-      "context_cues": ["evri", "usps informed delivery"],
+      "context_cues": [
+        "evri",
+        "usps informed delivery"
+      ],
       "hits": [
         {
           "label": "customs fee to release package via link",
-          "all": ["customs fee", "package", "link"],
+          "all": [
+            "customs fee",
+            "package",
+            "link"
+          ],
           "high_confidence": true
         }
       ],
       "gemini_snippet": "[DELIVERY_OTA] Smishing: 'your package is held, pay a small customs/redelivery fee via this link.' Carriers never text fee links; track only in the official app."
     },
     "romance": {
-      "context_cues": ["soulmate", "deployed overseas"],
+      "context_cues": [
+        "soulmate",
+        "deployed overseas",
+        "whatsapp message",
+        "never met in person",
+        "fake boyfriend",
+        "online dating",
+        "stuck overseas"
+      ],
       "hits": [
         {
           "label": "romance partner asks for gift cards",
-          "all": ["my love", "gift card", "send"],
+          "all": [
+            "my love",
+            "gift card",
+            "send"
+          ],
           "high_confidence": true
         },
         {
           "label": "overseas emergency travel fee romance",
-          "all": ["stuck", "overseas", "wire"],
+          "all": [
+            "stuck",
+            "overseas",
+            "wire"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "romantic partner emergency travel money scam",
+          "all": [
+            "couldnt get a plane ticket",
+            "scared and in danger",
+            "ask her again for money"
+          ],
           "high_confidence": true
         }
       ],
       "gemini_snippet": "[ROMANCE_OTA] Love-bombing then money/gift-card asks, overseas emergency scripts, and crypto pitches from dating contacts. Never send money to someone you have not met in person."
     },
     "government": {
-      "context_cues": ["tax warrant", "ssn suspended"],
+      "context_cues": [
+        "tax warrant",
+        "ssn suspended",
+        "ic3",
+        "fbi agent",
+        "scam recovery",
+        "direct messages",
+        "internet crime complaint center"
+      ],
       "hits": [
         {
           "label": "irs gift card tax settlement",
-          "all": ["irs", "gift card", "taxes"],
+          "all": [
+            "irs",
+            "gift card",
+            "taxes"
+          ],
           "high_confidence": true
         },
         {
           "label": "ssa ssn suspended verify now",
-          "all": ["social security", "suspended", "verify"],
+          "all": [
+            "social security",
+            "suspended",
+            "verify"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "fake ic3 fbi agent recovery scam",
+          "all": [
+            "ic3 scam recovery",
+            "recovery assistance",
+            "investigate scam activities"
+          ],
           "high_confidence": true
         }
       ],
       "gemini_snippet": "[GOV_OTA] IRS/SSA impersonators demand gift cards or crypto and threaten arrest or 'SSN suspended'. Real agencies never ask for gift cards; use only official .gov channels."
     },
     "charity": {
-      "context_cues": ["hurricane relief", "disaster fund"],
+      "context_cues": [
+        "hurricane relief",
+        "disaster fund"
+      ],
       "hits": [
         {
           "label": "disaster relief gift card donation",
-          "all": ["donate", "hurricane", "gift card"],
+          "all": [
+            "donate",
+            "hurricane",
+            "gift card"
+          ],
           "high_confidence": true
         },
         {
           "label": "fake red cross crypto donation",
-          "all": ["red cross", "bitcoin", "donate"],
+          "all": [
+            "red cross",
+            "bitcoin",
+            "donate"
+          ],
           "high_confidence": true
         }
       ],

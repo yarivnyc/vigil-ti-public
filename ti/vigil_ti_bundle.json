@@ -1,94 +1,89 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-06",
-  "published_at": "2026-07-06T12:00:00Z",
+  "bundle_id": "2026-07-22",
+  "published_at": "2026-07-22T12:00:00Z",
   "bulletins": [
     {
-      "id": "military-debt-relief-2026-07",
-      "title": "Military Debt Forgiveness Scams",
-      "summary": "Scammers target service members and veterans with phone calls offering fake military debt forgiveness or relief programs. They pressure victims into paying them directly under the guise of resolving their outstanding loans.",
+      "id": "gold-courier-scam-2026-07",
+      "title": "Cold-Calling Fraudsters Target Seniors with Gold Bar Courier Scheme",
+      "summary": "Impersonators calling victims claim their financial accounts are at immediate risk and instruct them to remain on the phone while liquidating savings to buy gold bars. Scammers then dispatch a physical courier to the victim's home under the guise of transferring the gold to a safe vault.",
       "severity": "high",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/07/can-you-spot-debt-relief-scams-target-military",
+      "source_name": "NY Post",
+      "source_url": "https://nypost.com/2026/07/14/us-news/elderly-long-islanders-scammed-out-of-3m-in-scheme-with-gold-bars-phony-storage-units-officials/",
       "phrases": [
-        "military debt forgiveness",
-        "enroll in a special military debt",
-        "forgive your military debt",
-        "military debt relief program",
-        "military debt consolidation",
-        "reduce your military debt"
+        "your money is at immediate risk",
+        "liquidate your savings",
+        "buy gold or precious metals",
+        "courier will arrive to collect",
+        "protect your assets",
+        "vault to protect it"
       ]
     },
     {
-      "id": "jury-duty-arrest-2026-06",
-      "title": "Fake Jury Duty Arrest Threats",
-      "summary": "Scammers call and text victims claiming they missed jury duty and face immediate arrest. They send official-looking fake warrants and demand immediate payment of a fine to clear the warrant.",
+      "id": "ic3-fbi-recovery-scam-2026-07",
+      "title": "Fraudsters Impersonate FBI and IC3 Agents in Asset Recovery Scams",
+      "summary": "Scammers are contacting previous cybercrime victims via direct messages, posing as FBI or IC3 representatives. They claim to offer professional scam recovery services to trace transactions and retrieve lost funds, ultimately attempting to solicit money or personal credentials.",
       "severity": "high",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty",
+      "source_name": "Malwarebytes",
+      "source_url": "https://www.malwarebytes.com/blog/news/2026/07/dont-trust-that-fbi-agent-in-your-dms",
       "phrases": [
-        "missed jury duty",
-        "warrant out for your arrest",
-        "pay to avoid arrest",
-        "fine for missing jury duty",
-        "arrest warrant for jury duty",
-        "failure to appear for jury"
+        "recovery of your lost funds",
+        "investigate scam activities",
+        "trace transactions and provide guidance",
+        "ic3 scam recovery",
+        "contact ic3 now for support"
       ]
     },
     {
-      "id": "ftc-impersonator-id-2026-06",
-      "title": "FTC Impersonators Sending Fake Photo IDs",
-      "summary": "Scammers text victims pretending to be FTC agents offering to help recover money lost in previous scams. In a new twist, they text fake photo IDs to 'verify' their identity and gain the victim's trust.",
-      "severity": "high",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/06/real-ftc-employee-wont-text-you-their-photo-id-verify-their-identity",
+      "id": "romance-emergency-scam-2026-07",
+      "title": "Romance Scammers Leverage Fake Travel Crises for Wire Demands",
+      "summary": "Online romance scammers groom victims over messaging platforms like WhatsApp without speaking in person, then fabricate sudden emergencies to request urgent wire transfers. Script tactics involve claiming to be stranded, unable to buy plane tickets, or in immediate danger.",
+      "severity": "medium",
+      "source_name": "NY Post",
+      "source_url": "https://nypost.com/2026/07/16/lifestyle/woman-falls-victim-to-romance-scam-after-sending-money-to-a-fake-boyfriend-i-want-to-vomit/",
       "phrases": [
-        "FTC agent",
-        "verify my identity",
-        "recover money you lost",
-        "refund from the FTC",
-        "federal trade commission agent",
-        "texting you my photo ID"
+        "stuck and in danger",
+        "could not get a plane ticket",
+        "need urgent financial help",
+        "send money right away",
+        "sorry to ask for money"
       ]
     }
   ],
   "keyword_delta": {
     "add_phrases": [
-      "military debt forgiveness",
-      "military debt relief program",
-      "missed jury duty",
-      "warrant out for your arrest",
-      "pay to avoid arrest",
-      "FTC agent",
-      "recover money you lost",
-      "verify my identity"
+      "your money is at immediate risk",
+      "liquidate your savings",
+      "buy gold or precious metals",
+      "recovery of your lost funds",
+      "investigate scam activities",
+      "trace transactions and provide guidance",
+      "stuck and in danger",
+      "could not get a plane ticket"
     ],
     "add_compounds": [
       {
-        "label": "jury duty scam",
+        "label": "gold courier scam",
         "all": [
-          "jury",
-          "duty",
-          "arrest"
+          "gold",
+          "courier"
         ]
       },
       {
-        "label": "military debt scam",
+        "label": "ic3 recovery scam",
         "all": [
-          "military",
-          "debt",
-          "forgiveness"
+          "ic3",
+          "recovery"
         ]
       },
       {
-        "label": "FTC impersonator",
+        "label": "liquidate assets demand",
         "all": [
-          "FTC",
-          "agent",
-          "verify"
+          "liquidate",
+          "savings"
         ]
       }
     ]
   },
-  "gemini_context_snippet": "This week's focus is on high-pressure impersonation tactics, including fake FTC agents texting photo IDs to 'verify' identity and offer scam recovery, callers threatening arrest for missed jury duty, and fraudulent military debt forgiveness offers targeting service members."
+  "gemini_context_snippet": "Active phone and messaging scam campaigns this week focus on government impersonation gold courier pickups, fake FBI IC3 recovery agents targeting past scam victims via direct messaging, and romance scammers fabricating travel emergencies. Warn callers if someone instructs them to liquidate savings into gold bars for courier collection or claims to recover stolen crypto/funds via social media DMs."
 }
