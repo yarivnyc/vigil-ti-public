@@ -1,8 +1,169 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-22",
-  "published_at": "2026-07-22T12:00:00Z",
+  "bundle_id": "2026-07-23",
+  "published_at": "2026-07-23T14:56:07Z",
   "bulletins": [
+    {
+      "id": "fake-purchase-callback-2026-07",
+      "title": "Fake Purchase Alerts Push Victims to Call Scammer Callback Numbers",
+      "summary": "Scammers send SMS, email, app notifications, or calendar invites claiming an unrecognized purchase ($300–$2000) from brands like PayPal, Norton, McAfee, Microsoft, Shop, or Apple. The message includes a phone number to 'cancel' the charge. Calling connects to fraudsters who harvest card details, push remote-access software, demand gift cards, or request money 'sent back'.",
+      "severity": "high",
+      "source_name": "Instagram · Scamwatch (ACCC)",
+      "source_url": "https://www.instagram.com/p/DazDVouihoP/",
+      "phrases": [
+        "unrecognized purchase",
+        "call this number to cancel",
+        "call to reverse the payment",
+        "stop this payment now",
+        "purchase you did not make",
+        "refund overpayment",
+        "never call the number in the message"
+      ]
+    },
+    {
+      "id": "job-task-topup-scam-2026-05",
+      "title": "Fake Amazon/YouTube Recruiter SMS Moves Victims to WhatsApp Task Top-Ups",
+      "summary": "Unsolicited SMS impersonates recruiters for Amazon, YouTube, or similar brands offering high-pay remote 'e-commerce assistant' or listing-optimization tasks. Victims are moved to WhatsApp, complete tasks, may receive a small payout, then must 'top up' crypto or deposit their own money to unlock earnings — which is never returned. University job boards are also being targeted.",
+      "severity": "high",
+      "source_name": "Instagram · Scamwatch (ACCC)",
+      "source_url": "https://www.instagram.com/scamwatchgovau/p/DBuesRsNfFh/",
+      "phrases": [
+        "work from home opportunity",
+        "only 20 positions available",
+        "move to whatsapp",
+        "top up your account",
+        "unlock your commission",
+        "e-commerce assistant",
+        "never pay money to start a job",
+        "easy tasks from home"
+      ]
+    },
+    {
+      "id": "ftc-gov-impersonation-gift-card-2026-01",
+      "title": "Government and Boss Impersonators Demand Gift-Card Payments",
+      "summary": "FTC-highlighted imposter scripts: callers or texters claim to be the government (including the FTC), your boss, or another authority and demand urgent payment via gift cards / 'Google certificates'. Real agencies and employers never ask for gift-card numbers or PINs.",
+      "severity": "high",
+      "source_name": "Instagram · U.S. Federal Trade Commission",
+      "source_url": "https://www.instagram.com/federaltradecommission/p/DHtqqRAMGlY/",
+      "phrases": [
+        "buy gift cards to pay",
+        "send the gift card numbers",
+        "google certificates",
+        "urgent favor from your boss",
+        "pay the fine with gift cards",
+        "impersonating government agencies",
+        "only scammers ask for gift cards"
+      ]
+    },
+    {
+      "id": "ftc-delivery-link-phish-2026",
+      "title": "Unexpected Package Delivery Texts With Malicious Links",
+      "summary": "FTC warns that unexpected package-delivery messages with links are often phishing to steal personal and financial information. Carriers and stores should be checked only via the official app or a URL you type yourself.",
+      "severity": "medium",
+      "source_name": "Instagram · U.S. Federal Trade Commission",
+      "source_url": "https://www.instagram.com/federaltradecommission/reel/DDiBIrEsK9O/",
+      "phrases": [
+        "unexpected package delivery",
+        "click to track your package",
+        "package delivery link",
+        "confirm your delivery address"
+      ]
+    },
+    {
+      "id": "govil-sms-thread-payment-phish-2026",
+      "title": "Fake GOV.IL Payment SMS Injected Into Legitimate Government Threads",
+      "summary": "Israel National Cyber Directorate warns of phishing SMS that request payment and include a malicious link, appearing inside existing legitimate GOV.IL message threads on some devices. Not a breach of GOV.IL systems — an SMS display trick. Never tap the link or enter card details; pay only via the official site/app you open yourself. Report to 119.",
+      "severity": "high",
+      "source_name": "Instagram · Israel National Cyber Directorate",
+      "source_url": "https://www.instagram.com/israel.cyber/",
+      "phrases": [
+        "gov.il payment link",
+        "click to complete payment",
+        "government payment due",
+        "enter your credit card details",
+        "official payment request"
+      ]
+    },
+    {
+      "id": "mygov-ato-link-phish-vicpol-2026",
+      "title": "myGov and ATO Phishing Links During Tax-Time Rush",
+      "summary": "Victoria Police warns scammers SMS/email fake myGov and ATO links to steal sign-in details, redirect tax refunds, or create fraudulent payments. ATO and myGov never send SMS/email links to access services — type my.gov.au or ato.gov.au yourself. Also watch fake retailer stores during end-of-financial-year sales.",
+      "severity": "high",
+      "source_name": "Instagram · Victoria Police",
+      "source_url": "https://www.police.vic.gov.au/police-warn-mygov-tax-time-and-end-financial-year-sale-scammers",
+      "phrases": [
+        "mygov sign in link",
+        "ato refund waiting",
+        "click to access mygov",
+        "verify your tax return",
+        "services australia login link"
+      ]
+    },
+    {
+      "id": "bank-otp-harvest-cold-call-2026-07",
+      "title": "Bank Impersonators Harvest SMS OTP Codes on Cold Calls",
+      "summary": "A private-number caller claims to be the victim's bank, recites a known ID number, says someone is breaking into the account right now, then asks the victim to read back an SMS one-time code. The OTP SMS may even appear in the existing bank message thread, which increases trust.",
+      "severity": "high",
+      "source_name": "Instagram · Haim Etgar",
+      "source_url": "https://www.instagram.com/reel/DbGSXzQIb3E/",
+      "phrases": [
+        "i am calling from your bank",
+        "someone is trying to break into your account",
+        "tell me the code from the sms",
+        "read me the verification code",
+        "i will send you a code by text",
+        "one time code to secure your account"
+      ]
+    },
+    {
+      "id": "ai-birthday-video-kyc-2026-07",
+      "title": "Fan DMs Ask for Birthday Wish Videos to Deepfake Bank KYC",
+      "summary": "Scammers DM creators and everyday users on Instagram or Facebook posing as fans, then ask for a short birthday greeting video. With AI they remix the selfie-style clip into a synthetic KYC/liveness video used to open bank accounts, take loans, or access government systems in the victim's name.",
+      "severity": "high",
+      "source_name": "Instagram · Haim Etgar",
+      "source_url": "https://www.instagram.com/reel/DbDGOoGoLxc/",
+      "phrases": [
+        "send a birthday video",
+        "birthday wish video",
+        "i am a fan of your content",
+        "happy birthday video for me",
+        "record a short greeting video",
+        "open a bank account online",
+        "video verification for the bank"
+      ]
+    },
+    {
+      "id": "sms-thread-injection-phishing-2026-07",
+      "title": "Phishing Debt Links Injected Into Legitimate App SMS Threads",
+      "summary": "Attackers inject fake 'settle your debt' texts into existing SMS conversation threads with trusted brands (parking apps like Pango, coffee chains like Cofix) and even government notification threads (Gov.il). Because the lure sits under prior legitimate receipts, victims tap the link and enter card details on a clone site.",
+      "severity": "high",
+      "source_name": "Instagram · Haim Etgar",
+      "source_url": "https://www.instagram.com/reel/Dau_P9AIfbm/",
+      "phrases": [
+        "settle your debt",
+        "pay outstanding balance",
+        "click the link to pay",
+        "enter your credit card details",
+        "debt payment link",
+        "parking fine payment link"
+      ]
+    },
+    {
+      "id": "ai-voice-family-emergency-2026-01",
+      "title": "AI Voice-Clone Family Emergency Calls — Use a Shared Code Word",
+      "summary": "Scammers clone a relative's voice with AI and place an urgent 'emergency' call asking for money. Families should agree on a shared emergency code word before wiring anything. One case cited ~450,000 ILS lost.",
+      "severity": "high",
+      "source_name": "Instagram · Haim Etgar",
+      "source_url": "https://www.instagram.com/reel/DTvHaMpCDkz/",
+      "phrases": [
+        "family emergency code word",
+        "sounds like your son",
+        "need money right now",
+        "urgent family emergency",
+        "ai voice clone call",
+        "do not send money without the code"
+      ]
+    },
     {
       "id": "gold-courier-scam-2026-07",
       "title": "Cold-Calling Fraudsters Target Seniors with Gold Bar Courier Scheme",
@@ -59,7 +220,54 @@
       "investigate scam activities",
       "trace transactions and provide guidance",
       "stuck and in danger",
-      "could not get a plane ticket"
+      "could not get a plane ticket",
+      "tell me the code from the sms",
+      "read me the verification code",
+      "i am calling from your bank",
+      "someone is trying to break into your account",
+      "send a birthday video",
+      "birthday wish video",
+      "settle your debt",
+      "enter your credit card details",
+      "family emergency code word",
+      "ai voice clone call",
+      "sounds like your son",
+      "click to claim your benefits",
+      "unrecognized purchase",
+      "call this number to cancel",
+      "call to reverse the payment",
+      "stop this payment now",
+      "purchase you did not make",
+      "refund overpayment",
+      "never call the number in the message",
+      "work from home opportunity",
+      "only 20 positions available",
+      "move to whatsapp",
+      "top up your account",
+      "unlock your commission",
+      "e-commerce assistant",
+      "never pay money to start a job",
+      "easy tasks from home",
+      "buy gift cards to pay",
+      "send the gift card numbers",
+      "google certificates",
+      "urgent favor from your boss",
+      "pay the fine with gift cards",
+      "impersonating government agencies",
+      "only scammers ask for gift cards",
+      "unexpected package delivery",
+      "click to track your package",
+      "package delivery link",
+      "confirm your delivery address",
+      "gov.il payment link",
+      "click to complete payment",
+      "government payment due",
+      "official payment request",
+      "mygov sign in link",
+      "ato refund waiting",
+      "click to access mygov",
+      "verify your tax return",
+      "services australia login link"
     ],
     "add_compounds": [
       {
@@ -82,8 +290,65 @@
           "liquidate",
           "savings"
         ]
+      },
+      {
+        "label": "bank otp harvest call",
+        "all": [
+          "verification code",
+          "your bank"
+        ]
+      },
+      {
+        "label": "birthday video identity theft",
+        "all": [
+          "birthday",
+          "video"
+        ]
+      },
+      {
+        "label": "sms debt thread phishing",
+        "all": [
+          "settle",
+          "debt",
+          "link"
+        ]
+      },
+      {
+        "label": "ai family emergency voice",
+        "all": [
+          "emergency",
+          "code word"
+        ]
+      },
+      {
+        "label": "purchase callback scam",
+        "all": [
+          "unrecognized purchase",
+          "call"
+        ]
+      },
+      {
+        "label": "job top-up scam",
+        "all": [
+          "top up",
+          "commission"
+        ]
+      },
+      {
+        "label": "boss gift card ask",
+        "all": [
+          "boss",
+          "gift card"
+        ]
+      },
+      {
+        "label": "mygov phishing link",
+        "all": [
+          "mygov",
+          "link"
+        ]
       }
     ]
   },
-  "gemini_context_snippet": "Active phone and messaging scam campaigns this week focus on government impersonation gold courier pickups, fake FBI IC3 recovery agents targeting past scam victims via direct messaging, and romance scammers fabricating travel emergencies. Warn callers if someone instructs them to liquidate savings into gold bars for courier collection or claims to recover stolen crypto/funds via social media DMs."
+  "gemini_context_snippet": "Instagram editorial this week: Fake Purchase Alerts Push Victims to Call Scammer Callback Numbers, Fake Amazon/YouTube Recruiter SMS Moves Victims to WhatsApp Task Top-Ups, Government and Boss Impersonators Demand Gift-Card Payments. New consumer scripts from Instagram · Haim Etgar: bank impersonators harvesting SMS OTP codes on cold calls; fan DMs requesting birthday greeting videos for AI/deepfake bank KYC; phishing 'settle your debt' links injected into legitimate brand/government SMS threads; and AI voice-clone family-emergency calls that a shared family code word can stop. Also still acti"
 }
