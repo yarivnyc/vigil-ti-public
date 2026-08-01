@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-01",
-  "published_at": "2026-08-01T12:00:00Z",
+  "bundle_id": "2026-08-02",
+  "published_at": "2026-08-02T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -68,7 +68,11 @@
         "tiktok seller",
         "dm to order",
         "resin art",
-        "custom handmade"
+        "custom handmade",
+        "google business",
+        "hidden reviews",
+        "remove the reviews",
+        "digital marketing"
       ],
       "hits": [
         {
@@ -105,9 +109,27 @@
             "dm to order"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "google business pay-to-remove review extortion",
+          "all": [
+            "hidden reviews",
+            "pay",
+            "remove"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "fake google reviews payment demand",
+          "all": [
+            "google business",
+            "remove the reviews",
+            "pay"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup."
+      "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup. Also: Google Business review extortion \u2014 fake negative reviews then pay-to-remove / \"hidden reviews\" threats from unsolicited digital marketers. Never pay; report reviews as fake/spam in Google."
     },
     "rental": {
       "context_cues": [

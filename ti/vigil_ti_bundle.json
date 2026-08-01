@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-01",
-  "published_at": "2026-08-01T12:00:00Z",
+  "bundle_id": "2026-08-02",
+  "published_at": "2026-08-02T12:00:00Z",
   "bulletins": [
+    {
+      "id": "google-business-review-extortion-2026-08",
+      "title": "Fake Google Reviews Used to Extort Business Owners",
+      "summary": "Scammers post fake negative Google Business reviews (sometimes with hate comments or inappropriate images), then message the owner as \"digital marketers\" demanding payment to remove those reviews and claimed \"hidden reviews,\" threatening to publish them unless paid quickly. Do not pay \u2014 report reviews/profiles as fake in the official Google tools and document everything.",
+      "severity": "high",
+      "source_name": "Community alert (Nextdoor)",
+      "source_url": "https://share.icloud.com/photos/083H0gvnx1Vq7HFFNZxKDmy1Q",
+      "phrases": [
+        "hidden reviews",
+        "pay to remove reviews",
+        "remove the reviews",
+        "google business profile",
+        "fake negative reviews",
+        "digital marketing",
+        "review extortion",
+        "make them public"
+      ]
+    },
     {
       "id": "fake-purchase-callback-2026-07",
       "title": "Fake Purchase Alerts Push Victims to Call Scammer Callback Numbers",
@@ -267,7 +285,13 @@
       "ato refund waiting",
       "click to access mygov",
       "verify your tax return",
-      "services australia login link"
+      "services australia login link",
+      "hidden reviews",
+      "pay to remove reviews",
+      "remove the reviews",
+      "google business profile",
+      "fake negative reviews",
+      "review extortion"
     ],
     "add_compounds": [
       {
@@ -347,8 +371,23 @@
           "mygov",
           "link"
         ]
+      },
+      {
+        "label": "review extortion pay remove",
+        "all": [
+          "remove",
+          "reviews",
+          "pay"
+        ]
+      },
+      {
+        "label": "hidden reviews payment demand",
+        "all": [
+          "hidden reviews",
+          "pay"
+        ]
       }
     ]
   },
-  "gemini_context_snippet": "Instagram editorial this week: Fake Purchase Alerts Push Victims to Call Scammer Callback Numbers, Fake Amazon/YouTube Recruiter SMS Moves Victims to WhatsApp Task Top-Ups, Government and Boss Impersonators Demand Gift-Card Payments. New consumer scripts from Instagram \u00b7 Haim Etgar: bank impersonators harvesting SMS OTP codes on cold calls; fan DMs requesting birthday greeting videos for AI/deepfake bank KYC; phishing 'settle your debt' links injected into legitimate brand/government SMS threads; and AI voice-clone family-emergency calls that a shared family code word can stop. Also still acti [TI] Restored Jul-23 high-signal bulletins (Instagram+press) after empty 2026-07-27 OTA publish; bundle_id advanced to 2026-08-01 for clients."
+  "gemini_context_snippet": "Instagram editorial this week: Fake Purchase Alerts Push Victims to Call Scammer Callback Numbers, Fake Amazon/YouTube Recruiter SMS Moves Victims to WhatsApp Task Top-Ups, Government and Boss Impersonators Demand Gift-Card Payments. New consumer scripts from Instagram \u00b7 Haim Etgar: bank impersonators harvesting SMS OTP codes on cold calls; fan DMs requesting birthday greeting videos for AI/deepfake bank KYC; phishing 'settle your debt' links injected into legitimate brand/government SMS threads; and AI voice-clone family-emergency calls that a shared family code word can stop. Also still acti [TI] Restored Jul-23 high-signal bulletins (Instagram+press) after empty 2026-07-27 OTA publish; bundle_id advanced to 2026-08-01 for clients. Also watch Google Business review-extortion: fake negative reviews then demands to pay to remove \"hidden reviews\" \u2014 never pay; report via Google."
 }
