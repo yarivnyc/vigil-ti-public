@@ -1,8 +1,44 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-07",
-  "published_at": "2026-07-22T02:56:14Z",
-  "email_entries": [],
+  "bundle_id": "2026-07-26",
+  "published_at": "2026-07-27T20:12:21Z",
+  "email_entries": [
+    {
+      "address": "cfo-payments@acme-corp-vendor.com",
+      "label": "QA fixture · BEC fake CFO vendor payment",
+      "source": "qa_fixture",
+      "trend_id": "bec-qa-fixture",
+      "note": null
+    },
+    {
+      "address": "support@paypal-secure-resolve.com",
+      "label": "QA fixture · fake PayPal support phishing",
+      "source": "qa_fixture",
+      "trend_id": "phishing-qa-fixture",
+      "note": null
+    },
+    {
+      "address": "claims@irs-refund-portal.net",
+      "label": "QA fixture · fake IRS refund claim",
+      "source": "qa_fixture",
+      "trend_id": "gov-impersonation-qa-fixture",
+      "note": null
+    },
+    {
+      "address": "helpdesk@microsoft-account-lock.org",
+      "label": "QA fixture · fake Microsoft lockout",
+      "source": "qa_fixture",
+      "trend_id": "tech-support-qa-fixture",
+      "note": null
+    },
+    {
+      "address": "billing@apple-id-unlock.info",
+      "label": "QA fixture · fake Apple ID billing",
+      "source": "qa_fixture",
+      "trend_id": "tech-support-qa-fixture",
+      "note": null
+    }
+  ],
   "domain_entries": [
     {
       "domain": "zillow-secure-listing.example",

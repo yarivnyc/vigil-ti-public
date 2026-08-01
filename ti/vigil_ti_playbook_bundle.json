@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-23",
-  "published_at": "2026-07-23T14:56:07Z",
+  "bundle_id": "2026-08-01",
+  "published_at": "2026-08-01T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -56,7 +56,20 @@
       "gemini_snippet": "[TRAVEL_OTA] Recent traveler-targeted scripts: airline 'cancelled flight' rebooking-fee texts, fake airline refunds pushed to gift cards, timeshare-exit upfront fees, and travel-insurance claim 'processing fees'. Treat upfront fees, gift-card/wire refunds, and off-official-channel airline/booking support as high risk; tell the user to verify via the airline app or the number on their ticket."
     },
     "marketplace": {
-      "context_cues": [],
+      "context_cues": [
+        "facebook marketplace",
+        "craigslist",
+        "offerup",
+        "marketplace buyer",
+        "marketplace seller",
+        "business zelle",
+        "shipping label",
+        "overpaid",
+        "tiktok seller",
+        "dm to order",
+        "resin art",
+        "custom handmade"
+      ],
       "hits": [
         {
           "label": "Marketplace fake Zelle buyer (Reddit reports)",
@@ -66,9 +79,35 @@
             "won t call"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "marketplace fake shipping label overpay",
+          "all": [
+            "shipping label",
+            "overpaid",
+            "refund"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "marketplace off-platform deposit",
+          "all": [
+            "hold the item",
+            "deposit",
+            "zelle"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "tiktok fake resin artist dm order scam",
+          "all": [
+            "resin artist",
+            "dm to order"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": ""
+      "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup."
     },
     "rental": {
       "context_cues": [
@@ -76,7 +115,10 @@
         "facebook marketplace",
         "zillow",
         "realtor.com",
-        "affordable rental"
+        "affordable rental",
+        "affordable rent",
+        "security deposit",
+        "property walkthrough"
       ],
       "hits": [
         {
@@ -85,6 +127,14 @@
             "rental property",
             "deposit fee",
             "showing the actual property"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "rental property advance deposit scam",
+          "all": [
+            "deposit fee before showing",
+            "rental property"
           ],
           "high_confidence": true
         }
@@ -96,10 +146,7 @@
         "part time job",
         "remote position",
         "task based",
-        "data entry job",
-        "sms",
-        "whatsapp",
-        "job board"
+        "data entry job"
       ],
       "hits": [
         {
@@ -118,15 +165,6 @@
             "start"
           ],
           "high_confidence": true
-        },
-        {
-          "label": "fake amazon/youtube recruiter sms moves victims to whatsapp task top-ups",
-          "all": [
-            "work",
-            "from",
-            "home"
-          ],
-          "high_confidence": true
         }
       ],
       "gemini_snippet": "[JOB_OTA] Watch for task/commission apps that require a deposit or 'recharge' to withdraw, recruiters moving to WhatsApp/Telegram, and any upfront fee for training, equipment, or a background check. Real jobs never charge to get hired."
@@ -134,12 +172,7 @@
     "tech_support": {
       "context_cues": [
         "subscription renewal",
-        "your device is at risk",
-        "sms",
-        "email",
-        "phone",
-        "paypal",
-        "norton"
+        "your device is at risk"
       ],
       "hits": [
         {
@@ -158,14 +191,6 @@
             "computer"
           ],
           "high_confidence": true
-        },
-        {
-          "label": "fake purchase alerts push victims to call scammer callback numbers",
-          "all": [
-            "unrecognized",
-            "purchase"
-          ],
-          "high_confidence": true
         }
       ],
       "gemini_snippet": "[TECH_OTA] Recent tech-support scams: fake antivirus/subscription 'refunds' that need remote access, and gift-card demands to fix a device. Real companies never cold-call about viruses or refunds."
@@ -178,7 +203,14 @@
         "buy gold",
         "precious metals",
         "safe storage",
-        "gold bars"
+        "gold bars",
+        "pig butchering",
+        "account frozen",
+        "regulatory hold",
+        "trading dashboard",
+        "crypto recovery",
+        "asset recovery",
+        "liquidate retirement"
       ],
       "hits": [
         {
@@ -198,20 +230,59 @@
             "vault to protect it"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "account frozen until fee paid",
+          "all": [
+            "account frozen",
+            "fee",
+            "release"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "regulatory hold withdrawal tax scam",
+          "all": [
+            "regulatory",
+            "withdraw",
+            "tax"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "liquidate retirement to invest more",
+          "all": [
+            "retirement",
+            "deposit",
+            "trading platform"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "upfront crypto recovery fee scam",
+          "all": [
+            "crypto recovery",
+            "fee",
+            "guarantee"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "bitcoin atm investment deposit ask",
+          "all": [
+            "bitcoin atm",
+            "deposit",
+            "wallet"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern: profits shown but a 'tax' or 'fee' is demanded before withdrawal. Paying to withdraw is always a scam."
+      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming \u2192 fake trading dashboard \u2192 small 'profits' \u2192 pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees."
     },
     "delivery": {
       "context_cues": [
         "evri",
-        "usps informed delivery",
-        "parking fine",
-        "settle your debt",
-        "outstanding balance",
-        "pango",
-        "sms",
-        "email"
+        "usps informed delivery"
       ],
       "hits": [
         {
@@ -222,36 +293,9 @@
             "link"
           ],
           "high_confidence": true
-        },
-        {
-          "label": "brand SMS thread debt-link injection",
-          "all": [
-            "settle your debt",
-            "parking",
-            "link"
-          ],
-          "high_confidence": true
-        },
-        {
-          "label": "fake app debt payment card harvest",
-          "all": [
-            "outstanding balance",
-            "pay",
-            "credit card"
-          ],
-          "high_confidence": true
-        },
-        {
-          "label": "unexpected package delivery texts with malicious links",
-          "all": [
-            "unexpected",
-            "package",
-            "delivery"
-          ],
-          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[DELIVERY_OTA] Smishing: 'your package is held, pay a small customs/redelivery fee via this link.' Carriers never text fee links; track only in the official app. New variant: phishing debt-settlement links injected into existing parking/app SMS receipt threads — never enter card details from a texted link."
+      "gemini_snippet": "[DELIVERY_OTA] Smishing: 'your package is held, pay a small customs/redelivery fee via this link.' Carriers never text fee links; track only in the official app."
     },
     "romance": {
       "context_cues": [
@@ -262,10 +306,11 @@
         "fake boyfriend",
         "online dating",
         "stuck overseas",
-        "family emergency",
-        "code word",
-        "ai voice",
-        "sounds like your son"
+        "facebook dating",
+        "money mule",
+        "deposit the check",
+        "jailed overseas",
+        "attorney fee"
       ],
       "hits": [
         {
@@ -296,25 +341,43 @@
           "high_confidence": true
         },
         {
-          "label": "ai voice clone family emergency money ask",
+          "label": "romance partner pitches fake trading platform",
           "all": [
-            "family emergency",
-            "sounds like",
+            "my love",
+            "trading platform",
+            "deposit"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "romance check-to-crypto money mule",
+          "all": [
+            "deposit the check",
+            "crypto",
+            "wallet"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "jailed abroad attorney fee romance ask",
+          "all": [
+            "jailed",
+            "attorney",
             "send money"
           ],
           "high_confidence": true
         },
         {
-          "label": "missing family emergency code word",
+          "label": "romance recovery scam after crypto loss",
           "all": [
-            "code word",
-            "emergency",
-            "wire"
+            "recover your funds",
+            "blockchain analysis",
+            "fee"
           ],
-          "high_confidence": false
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[ROMANCE_OTA] Love-bombing then money/gift-card asks, overseas emergency scripts, and crypto pitches from dating contacts. Never send money to someone you have not met in person. Also flag AI voice-clone family-emergency calls; families should require a pre-agreed code word before sending money."
+      "gemini_snippet": "[ROMANCE_OTA] Love-bombing then money/gift-card asks, WhatsApp/Telegram pivots, overseas emergency or 'jailed abroad' attorney scripts, and romance\u2192crypto pig-butchering (shared fake platform, deposit their check/cash then buy crypto). Never send money to someone you have not met; treat paid recovery offers as a second-scam risk."
     },
     "government": {
       "context_cues": [
@@ -325,14 +388,16 @@
         "scam recovery",
         "direct messages",
         "internet crime complaint center",
-        "gov.il",
-        "national insurance",
-        "benefits refund",
-        "settle your debt",
-        "phone",
-        "sms",
-        "email",
-        "mygov"
+        "ic3 complaint",
+        "law enforcement",
+        "digital arrest",
+        "house arrest",
+        "interpol",
+        "europol",
+        "consulate",
+        "case number",
+        "safe account",
+        "verification account"
       ],
       "hits": [
         {
@@ -363,60 +428,60 @@
           "high_confidence": true
         },
         {
-          "label": "fake benefits refund card harvest email",
+          "label": "fake fbi ic3 recovery agent scam",
           "all": [
-            "benefits",
-            "refund",
-            "credit card"
+            "ic3 scam recovery",
+            "recovery of lost funds"
           ],
           "high_confidence": true
         },
         {
-          "label": "gov notification thread phishing debt link",
+          "label": "digital arrest isolation warrant scam",
           "all": [
-            "settle your debt",
-            "click the link",
-            "credit card"
+            "digital arrest",
+            "do not tell",
+            "warrant"
           ],
           "high_confidence": true
         },
         {
-          "label": "birthday greeting video for deepfake KYC",
+          "label": "house arrest move funds verification scam",
           "all": [
-            "birthday video",
-            "fan",
-            "bank account"
+            "house arrest",
+            "safe account",
+            "verify"
           ],
           "high_confidence": true
         },
         {
-          "label": "government and boss impersonators demand gift-card payments",
+          "label": "interpol warrant crypto atm payment",
           "all": [
-            "gift",
-            "cards"
+            "interpol",
+            "bitcoin atm",
+            "pay"
           ],
           "high_confidence": true
         },
         {
-          "label": "fake gov.il payment sms injected into legitimate government threads",
+          "label": "consulate warrant move money to crypto",
           "all": [
-            "gov.il",
-            "payment",
-            "link"
+            "consulate",
+            "warrant",
+            "crypto"
           ],
           "high_confidence": true
         },
         {
-          "label": "mygov and ato phishing links during tax-time rush",
+          "label": "fake officer says bank staff compromised",
           "all": [
-            "mygov",
-            "sign",
-            "link"
+            "do not talk to the bank",
+            "investigation",
+            "transfer"
           ],
           "high_confidence": true
         }
       ],
-      "gemini_snippet": "[GOV_OTA] IRS/SSA impersonators demand gift cards or crypto and threaten arrest or 'SSN suspended'. Real agencies never ask for gift cards; use only official .gov channels. Also watch fake national-benefits refund emails that harvest cards, and phishing debt links injected into legitimate government SMS threads."
+      "gemini_snippet": "[GOV_OTA] IRS/SSA plus 'digital arrest' / international warrant scripts: Interpol/Europol/consulate impersonators isolate victims ('house arrest', secrecy), push Bitcoin/crypto ATM payments or transfers to a 'safe'/'verification' account, and claim bank staff are compromised. Real agencies never demand gift cards, crypto, or ATM cash-ins."
     },
     "charity": {
       "context_cues": [
