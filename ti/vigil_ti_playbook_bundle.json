@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-02",
-  "published_at": "2026-08-02T12:00:00Z",
+  "bundle_id": "2026-08-05",
+  "published_at": "2026-08-05T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -232,7 +232,11 @@
         "trading dashboard",
         "crypto recovery",
         "asset recovery",
-        "liquidate retirement"
+        "liquidate retirement",
+        "crypto wallet",
+        "recovery phrase",
+        "seed phrase",
+        "restore access"
       ],
       "hits": [
         {
@@ -297,6 +301,14 @@
             "wallet"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "fake crypto wallet recovery phrase theft",
+          "all": [
+            "recovery phrase",
+            "restore access to a crypto wallet"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming \u2192 fake trading dashboard \u2192 small 'profits' \u2192 pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees."
@@ -332,7 +344,16 @@
         "money mule",
         "deposit the check",
         "jailed overseas",
-        "attorney fee"
+        "attorney fee",
+        "living together",
+        "boyfriend",
+        "girlfriend",
+        "family office",
+        "self managed",
+        "self-managed",
+        "invest for you",
+        "manage your retirement",
+        "moved in"
       ],
       "hits": [
         {
@@ -397,9 +418,43 @@
             "fee"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "partner offers to manage retirement fund",
+          "all": [
+            "boyfriend",
+            "retirement",
+            "invest"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "romantic contact self-managed fund pitch",
+          "all": [
+            "self managed",
+            "invest for you"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "family office romance investment grooming",
+          "all": [
+            "family office",
+            "invest for you"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "live-in partner retirement management pitch",
+          "all": [
+            "living together",
+            "retirement",
+            "manage"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[ROMANCE_OTA] Love-bombing then money/gift-card asks, WhatsApp/Telegram pivots, overseas emergency or 'jailed abroad' attorney scripts, and romance\u2192crypto pig-butchering (shared fake platform, deposit their check/cash then buy crypto). Never send money to someone you have not met; treat paid recovery offers as a second-scam risk."
+      "gemini_snippet": "[ROMANCE_OTA] Love-bombing OR slow trust-building then money/gift-card/crypto asks; WhatsApp/Telegram pivots; overseas emergency or 'jailed abroad' attorney scripts; romance\u2192crypto pig-butchering; and in-person / live-in partners who offer to manage retirement, self-managed funds, or 'invest for you' (meeting IRL does not verify identity). Never send money or hand retirement control to a romantic contact on their say-so; treat paid recovery offers as a second-scam risk."
     },
     "government": {
       "context_cues": [

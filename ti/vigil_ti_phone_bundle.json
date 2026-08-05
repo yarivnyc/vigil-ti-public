@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-27",
-  "published_at": "2026-07-27T12:00:00Z",
+  "bundle_id": "2026-08-03",
+  "published_at": "2026-08-03T12:00:00Z",
   "phone_entries": [
     {
       "e164": "12025550199",
@@ -11,10 +11,10 @@
     },
     {
       "e164": "12072045129",
-      "label": "FTC DNC robocall · Other",
+      "label": "FTC DNC robocall · Calls pretending to be government, businesses…",
       "source": "ftc_dnc",
-      "trend_id": "ftc-dnc-other",
-      "note": "39 FTC DNC complaints in window (unverified consumer reports)."
+      "trend_id": "ftc-dnc-calls-pretending-to-be-government-busine",
+      "note": "27 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "12173948723",
@@ -29,6 +29,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "17 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "12173948983",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "60 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "12797599651",
@@ -77,7 +84,7 @@
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
-      "note": "49 FTC DNC complaints in window (unverified consumer reports)."
+      "note": "160 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "13214991638",
@@ -182,7 +189,21 @@
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
-      "note": "82 FTC DNC complaints in window (unverified consumer reports)."
+      "note": "25 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13692166303",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "76 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13692166437",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "458 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "16467220144",
@@ -204,6 +225,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "130 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18336625747",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "48 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "18336625846",
@@ -234,6 +262,13 @@
       "note": "56 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18445023261",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "39 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18445151257",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
@@ -241,11 +276,25 @@
       "note": "20 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18445151847",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "83 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18553572047",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "24 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18553572184",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "77 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "18555802449",
@@ -262,11 +311,25 @@
       "note": "44 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18555802671",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "36 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18555835729",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "24 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18558830657",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "30 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "18559941955",
@@ -297,6 +360,13 @@
       "note": "38 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18663983705",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "35 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18663983714",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
@@ -318,6 +388,13 @@
       "note": "15 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18667714419",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "34 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18667714607",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
@@ -325,11 +402,25 @@
       "note": "51 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18667715158",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "36 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18667715357",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "37 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18667716454",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "34 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "18773721228",
@@ -381,6 +472,20 @@
       "note": "64 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18779570094",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "49 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18779570781",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "55 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18779610979",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
@@ -402,6 +507,13 @@
       "note": "20 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18882692770",
+      "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
+      "source": "ftc_dnc",
+      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
+      "note": "52 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
       "e164": "18882694158",
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
@@ -420,7 +532,7 @@
       "label": "FTC DNC robocall · Reducing your debt (credit cards, mortgage, s…",
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
-      "note": "86 FTC DNC complaints in window (unverified consumer reports)."
+      "note": "35 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
       "e164": "18883101306",
