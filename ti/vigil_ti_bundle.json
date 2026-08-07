@@ -1,8 +1,25 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-03",
-  "published_at": "2026-08-03T12:00:00Z",
+  "bundle_id": "2026-08-07",
+  "published_at": "2026-08-07T00:42:09Z",
   "bulletins": [
+    {
+      "id": "uk-airline-compensation-scam-2026-04",
+      "title": "UK Fake Airline Compensation / Flight Disruption Scams",
+      "summary": "UK Take Five to Stop Fraud warns that criminals impersonate airlines on social media after flight disruptions, offering fake compensation or refunds and steering victims into private chats that harvest bank details or push money transfers. Contact airlines only through official channels — never via unsolicited DMs — and report fraud at reportfraud.police.uk.",
+      "severity": "high",
+      "source_name": "Take Five UK",
+      "source_url": "https://www.takefive-stopfraud.org.uk/news/scam-watch-the-emerging-fraud-tactics-you-need-to-know-about-right-now/",
+      "phrases": [
+        "airline compensation",
+        "flight disruption refund",
+        "claim your refund",
+        "verify your bank details",
+        "private message from airline support",
+        "compensation for cancelled flight",
+        "transfer to process your refund"
+      ]
+    },
     {
       "id": "sextortion-shinyhunters-2026-07",
       "title": "Sextortion Extortion Campaign Impersonating Hacking Groups",
@@ -47,7 +64,11 @@
       "calling from your bank",
       "suspicious activity on your account",
       "verify your personal details",
-      "transfer funds to a safe account"
+      "transfer funds to a safe account",
+      "airline compensation",
+      "flight disruption refund",
+      "private message from airline support",
+      "compensation for cancelled flight"
     ],
     "add_compounds": [
       {
@@ -63,8 +84,16 @@
           "bank",
           "suspicious"
         ]
+      },
+      {
+        "label": "Fake airline compensation DM",
+        "all": [
+          "airline",
+          "compensation",
+          "refund"
+        ]
       }
     ]
   },
-  "gemini_context_snippet": "This week's active consumer scam campaigns focus on sextortion extortion emails leveraging leaked breach data to demand Bitcoin payments, as well as AI-powered robocalls using caller ID spoofing and voice cloning to impersonate banks and request urgent credential verification."
+  "gemini_context_snippet": "This week's active consumer scam campaigns focus on sextortion extortion emails leveraging leaked breach data to demand Bitcoin payments, as well as AI-powered robocalls using caller ID spoofing and voice cloning to impersonate banks and request urgent credential verification. Also active: UK Take Five warning on fake airline compensation / flight-disruption refund DMs that harvest bank details."
 }
