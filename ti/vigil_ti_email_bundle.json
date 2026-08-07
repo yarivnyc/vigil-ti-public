@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-07-26",
-  "published_at": "2026-08-03T20:22:30Z",
+  "bundle_id": "2026-08-07",
+  "published_at": "2026-08-07T00:09:08Z",
   "email_entries": [
     {
       "address": "cfo-payments@acme-corp-vendor.com",
@@ -36,6 +36,62 @@
       "label": "QA fixture · fake Apple ID billing",
       "source": "qa_fixture",
       "trend_id": "tech-support-qa-fixture",
+      "note": null
+    },
+    {
+      "address": "wire-request@vendor-ap-payments.example",
+      "label": "Curated · BEC vendor wire impersonation",
+      "source": "curated",
+      "trend_id": "bec-vendor-wire",
+      "note": "Lookalike AP/vendor payment mailbox used in BEC drills"
+    },
+    {
+      "address": "hr-payroll@secure-w2-update.example",
+      "label": "Curated · fake HR W-2 / payroll update",
+      "source": "curated",
+      "trend_id": "bec-hr-payroll",
+      "note": null
+    },
+    {
+      "address": "refunds@amazon-order-help.example",
+      "label": "Curated · fake Amazon refund desk",
+      "source": "curated",
+      "trend_id": "retail-impersonation",
+      "note": null
+    },
+    {
+      "address": "claims@ssa-benefits-verify.example",
+      "label": "Curated · fake SSA benefits verification",
+      "source": "curated",
+      "trend_id": "gov-impersonation",
+      "note": null
+    },
+    {
+      "address": "support@netflix-billing-secure.example",
+      "label": "Curated · fake streaming billing support",
+      "source": "curated",
+      "trend_id": "subscription-phishing",
+      "note": null
+    },
+    {
+      "address": "escrow@zillow-lease-hold.example",
+      "label": "Curated · fake rental escrow mailbox",
+      "source": "curated",
+      "trend_id": "rental-deposit",
+      "note": null
+    },
+    {
+      "address": "verify@wells-fargo-secure-login.example",
+      "label": "Curated · fake bank login verify",
+      "source": "curated",
+      "trend_id": "bank-phishing",
+      "note": null
+    },
+    {
+      "address": "help@crypto-withdraw-tax.example",
+      "label": "Curated · fake crypto tax-to-withdraw desk",
+      "source": "curated",
+      "trend_id": "investment-pig-butcher",
       "note": null
     }
   ],
