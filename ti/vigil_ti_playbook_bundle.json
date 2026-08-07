@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-05",
-  "published_at": "2026-08-05T12:00:00Z",
+  "bundle_id": "2026-08-07",
+  "published_at": "2026-08-07T00:29:29Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -129,7 +129,7 @@
           "high_confidence": true
         }
       ],
-      "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup. Also: Google Business review extortion \u2014 fake negative reviews then pay-to-remove / \"hidden reviews\" threats from unsolicited digital marketers. Never pay; report reviews as fake/spam in Google."
+      "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup. Also: Google Business review extortion — fake negative reviews then pay-to-remove / \"hidden reviews\" threats from unsolicited digital marketers. Never pay; report reviews as fake/spam in Google."
     },
     "rental": {
       "context_cues": [
@@ -311,7 +311,7 @@
           "high_confidence": true
         }
       ],
-      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming \u2192 fake trading dashboard \u2192 small 'profits' \u2192 pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees."
+      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming → fake trading dashboard → small 'profits' → pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees."
     },
     "delivery": {
       "context_cues": [
@@ -454,7 +454,7 @@
           "high_confidence": true
         }
       ],
-      "gemini_snippet": "[ROMANCE_OTA] Love-bombing OR slow trust-building then money/gift-card/crypto asks; WhatsApp/Telegram pivots; overseas emergency or 'jailed abroad' attorney scripts; romance\u2192crypto pig-butchering; and in-person / live-in partners who offer to manage retirement, self-managed funds, or 'invest for you' (meeting IRL does not verify identity). Never send money or hand retirement control to a romantic contact on their say-so; treat paid recovery offers as a second-scam risk."
+      "gemini_snippet": "[ROMANCE_OTA] Love-bombing OR slow trust-building then money/gift-card/crypto asks; WhatsApp/Telegram pivots; overseas emergency or 'jailed abroad' attorney scripts; romance→crypto pig-butchering; and in-person / live-in partners who offer to manage retirement, self-managed funds, or 'invest for you' (meeting IRL does not verify identity). Never send money or hand retirement control to a romantic contact on their say-so; treat paid recovery offers as a second-scam risk."
     },
     "government": {
       "context_cues": [
@@ -474,7 +474,14 @@
         "consulate",
         "case number",
         "safe account",
-        "verification account"
+        "verification account",
+        "webex",
+        "federal prosecutor",
+        "special agent",
+        "american express",
+        "wells fargo",
+        "credit card used",
+        "police station"
       ],
       "hits": [
         {
@@ -556,9 +563,63 @@
             "transfer"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "bank fraud warm-transfer to fbi digital arrest",
+          "all": [
+            "fraud",
+            "transfer",
+            "fbi"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "amex card used in crime fbi handoff",
+          "all": [
+            "american express",
+            "crime",
+            "fbi"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "wells fargo guns charge police transfer",
+          "all": [
+            "wells fargo",
+            "guns",
+            "police"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "webex check-in digital detention",
+          "all": [
+            "webex",
+            "check in",
+            "agent"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "forbid police station digital arrest control",
+          "all": [
+            "police station",
+            "arrested if",
+            "agent"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "sex trafficking accusation isolation script",
+          "all": [
+            "sex trafficking",
+            "do not tell",
+            "fbi"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[GOV_OTA] IRS/SSA plus 'digital arrest' / international warrant scripts: Interpol/Europol/consulate impersonators isolate victims ('house arrest', secrecy), push Bitcoin/crypto ATM payments or transfers to a 'safe'/'verification' account, and claim bank staff are compromised. Real agencies never demand gift cards, crypto, or ATM cash-ins."
+      "gemini_snippet": "[GOV_OTA] IRS/SSA plus 'digital arrest' / international warrant scripts: Interpol/Europol/consulate impersonators isolate victims ('house arrest', secrecy), push Bitcoin/crypto ATM payments or transfers to a 'safe'/'verification' account, and claim bank staff are compromised. Real agencies never demand gift cards, crypto, or ATM cash-ins. Also flag US credit-card digital-arrest imports: Amex/Wells Fargo 'fraud' calls that accuse a shame crime, warm-transfer to fake FBI/police, then Webex check-ins and orders not to enter a real station. Hang up; call the number on the card; tell someone — real digital arrest does not exist."
     },
     "charity": {
       "context_cues": [
