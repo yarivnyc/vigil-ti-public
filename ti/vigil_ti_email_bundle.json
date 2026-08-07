@@ -2496,5 +2496,7 @@
       "source": "openphish",
       "trend_id": "openphish-feed"
     }
-  ]
+  ],
+  "signing_key_id": "vigil-ti-ed25519-v1",
+  "signature": "Y3rLKixmuaqbYSx40iMeFrbR1FuoHVKcHFWz46xxQ34J/321H0HvN9exN4USsnjuRyWwmIJr+BzXaLxJzr8ICg=="
 }

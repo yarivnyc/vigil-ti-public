@@ -573,5 +573,7 @@
       "trend_id": "marketplace-zelle-reddit-2026-07",
       "note": "r/Scams — fake marketplace Zelle buyer"
     }
-  ]
+  ],
+  "signing_key_id": "vigil-ti-ed25519-v1",
+  "signature": "frge4tS8umWQZXvqC+n0OQvDozgM+33DeFVZso4bRMPKD1bQHU8R11MWxuZgPrV9Q/WV9QJaue62EpYLN/xfAA=="
 }

@@ -95,5 +95,7 @@
       }
     ]
   },
-  "gemini_context_snippet": "This week's active consumer scam campaigns focus on sextortion extortion emails leveraging leaked breach data to demand Bitcoin payments, as well as AI-powered robocalls using caller ID spoofing and voice cloning to impersonate banks and request urgent credential verification. Also active: UK Take Five warning on fake airline compensation / flight-disruption refund DMs that harvest bank details."
+  "gemini_context_snippet": "This week's active consumer scam campaigns focus on sextortion extortion emails leveraging leaked breach data to demand Bitcoin payments, as well as AI-powered robocalls using caller ID spoofing and voice cloning to impersonate banks and request urgent credential verification. Also active: UK Take Five warning on fake airline compensation / flight-disruption refund DMs that harvest bank details.",
+  "signing_key_id": "vigil-ti-ed25519-v1",
+  "signature": "DaBm1UMSuywgd1yJ8T0tq727UiMR/lJjrzQVV8b4fyNAPYYyKOOc7WSONXU6nY7Fr42FVawwZHes569oPbnGBA=="
 }

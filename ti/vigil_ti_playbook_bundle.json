@@ -648,5 +648,7 @@
       ],
       "gemini_snippet": "[CHARITY_OTA] Fake disaster-relief and Red Cross appeals that demand gift cards or crypto. Give only via official sites you type yourself."
     }
-  }
+  },
+  "signing_key_id": "vigil-ti-ed25519-v1",
+  "signature": "KdW94vltDCQEq0DUc3Kr4u6corXOtB4ipHo8cQ/INenLDGnsig+KytUgMZMyBh+LATcR+GPFc3Y7Jnu6kwRmDg=="
 }
