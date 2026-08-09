@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-07",
-  "published_at": "2026-08-07T00:29:29Z",
+  "bundle_id": "2026-08-09",
+  "published_at": "2026-08-09T12:06:58Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -13,7 +13,11 @@
         "travel insurance",
         "trip protection",
         "e visa",
-        "evisa"
+        "evisa",
+        "sweepstakes",
+        "lottery",
+        "timeshare exit",
+        "you have won"
       ],
       "hits": [
         {
@@ -51,6 +55,23 @@
             "processing fee"
           ],
           "high_confidence": false
+        },
+        {
+          "label": "sweepstakes prize tax fee",
+          "all": [
+            "prize",
+            "tax",
+            "pay"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "lottery winnings processing fee",
+          "all": [
+            "lottery",
+            "processing fee"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[TRAVEL_OTA] Recent traveler-targeted scripts: airline 'cancelled flight' rebooking-fee texts, fake airline refunds pushed to gift cards, timeshare-exit upfront fees, and travel-insurance claim 'processing fees'. Treat upfront fees, gift-card/wire refunds, and off-official-channel airline/booking support as high risk; tell the user to verify via the airline app or the number on their ticket."
@@ -72,7 +93,9 @@
         "google business",
         "hidden reviews",
         "remove the reviews",
-        "digital marketing"
+        "digital marketing",
+        "fake check",
+        "overpayment"
       ],
       "hits": [
         {
@@ -127,6 +150,23 @@
             "pay"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "fake check overpayment stranger",
+          "all": [
+            "check",
+            "overpay",
+            "send back"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "do me a favor gift card ask",
+          "all": [
+            "gift card",
+            "do me a favor"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup. Also: Google Business review extortion — fake negative reviews then pay-to-remove / \"hidden reviews\" threats from unsolicited digital marketers. Never pay; report reviews as fake/spam in Google."
@@ -140,7 +180,10 @@
         "affordable rental",
         "affordable rent",
         "security deposit",
-        "property walkthrough"
+        "property walkthrough",
+        "wire the deposit",
+        "overseas landlord",
+        "before viewing"
       ],
       "hits": [
         {
@@ -159,6 +202,24 @@
             "rental property"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "deposit before viewing rental",
+          "all": [
+            "deposit",
+            "before",
+            "tour"
+          ],
+          "high_confidence": false
+        },
+        {
+          "label": "overseas landlord wire deposit",
+          "all": [
+            "landlord",
+            "wire",
+            "deposit"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "Warn users about rental property listings demanding deposit fees before allowed to physically view the property."
@@ -168,7 +229,10 @@
         "part time job",
         "remote position",
         "task based",
-        "data entry job"
+        "data entry job",
+        "payment processing",
+        "keep a percentage",
+        "reshipping"
       ],
       "hits": [
         {
@@ -187,6 +251,15 @@
             "start"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "money mule payment forwarding job",
+          "all": [
+            "forward",
+            "payment",
+            "keep"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[JOB_OTA] Watch for task/commission apps that require a deposit or 'recharge' to withdraw, recruiters moving to WhatsApp/Telegram, and any upfront fee for training, equipment, or a background check. Real jobs never charge to get hired."
@@ -194,7 +267,11 @@
     "tech_support": {
       "context_cues": [
         "subscription renewal",
-        "your device is at risk"
+        "your device is at risk",
+        "amazon account",
+        "unauthorized order",
+        "anydesk",
+        "teamviewer"
       ],
       "hits": [
         {
@@ -211,6 +288,22 @@
           "all": [
             "gift card",
             "computer"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "amazon impostor refund remote access",
+          "all": [
+            "amazon",
+            "remote access"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "amazon unauthorized order refund bait",
+          "all": [
+            "unauthorized order",
+            "refund"
           ],
           "high_confidence": true
         }
@@ -236,7 +329,13 @@
         "crypto wallet",
         "recovery phrase",
         "seed phrase",
-        "restore access"
+        "restore access",
+        "gold bar",
+        "courier",
+        "safekeeping",
+        "ftc",
+        "recovery fee",
+        "fund recovery"
       ],
       "hits": [
         {
@@ -309,14 +408,53 @@
             "restore access to a crypto wallet"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "gold bar courier safekeeping (AARP)",
+          "all": [
+            "gold bar",
+            "courier"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "liquidate savings buy gold safekeeping",
+          "all": [
+            "liquidate",
+            "gold",
+            "safekeeping"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "ftc impersonation gold bars",
+          "all": [
+            "ftc",
+            "gold"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "recovery scam advance fee (AARP)",
+          "all": [
+            "recover your money",
+            "fee"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming → fake trading dashboard → small 'profits' → pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees."
+      "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming → fake trading dashboard → small 'profits' → pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees. [AARP] Gold-bar twist: hacked-account story → liquidate → buy gold/silver → courier picks up for 'safekeeping'. No agency asks for gold bars."
     },
     "delivery": {
       "context_cues": [
         "evri",
-        "usps informed delivery"
+        "usps informed delivery",
+        "usps",
+        "ups",
+        "fedex",
+        "redelivery",
+        "package held",
+        "customs fee"
       ],
       "hits": [
         {
@@ -325,6 +463,31 @@
             "customs fee",
             "package",
             "link"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "usps package redelivery fee link",
+          "all": [
+            "usps",
+            "redelivery"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "ups package held pay link",
+          "all": [
+            "ups",
+            "package",
+            "fee"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "customs fee smishing link",
+          "all": [
+            "customs fee",
+            "package"
           ],
           "high_confidence": true
         }
@@ -353,7 +516,10 @@
         "self-managed",
         "invest for you",
         "manage your retirement",
-        "moved in"
+        "moved in",
+        "wrong number",
+        "love bombing",
+        "catfish"
       ],
       "hits": [
         {
@@ -452,6 +618,22 @@
             "manage"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "wrong number romance opener",
+          "all": [
+            "wrong number",
+            "sorry"
+          ],
+          "high_confidence": false
+        },
+        {
+          "label": "romance love bombing money ask",
+          "all": [
+            "my love",
+            "send money"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[ROMANCE_OTA] Love-bombing OR slow trust-building then money/gift-card/crypto asks; WhatsApp/Telegram pivots; overseas emergency or 'jailed abroad' attorney scripts; romance→crypto pig-butchering; and in-person / live-in partners who offer to manage retirement, self-managed funds, or 'invest for you' (meeting IRL does not verify identity). Never send money or hand retirement control to a romantic contact on their say-so; treat paid recovery offers as a second-scam risk."
@@ -481,7 +663,20 @@
         "american express",
         "wells fargo",
         "credit card used",
-        "police station"
+        "police station",
+        "unpaid toll",
+        "traffic violation",
+        "parking violation",
+        "e-zpass",
+        "ezpass",
+        "fastrak",
+        "medicare flex",
+        "court hearing",
+        "civil infraction",
+        "dmv",
+        "jury duty",
+        "missed jury",
+        "social security"
       ],
       "hits": [
         {
@@ -617,14 +812,81 @@
             "fbi"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "fake unpaid toll pay-by-link text",
+          "all": [
+            "unpaid toll",
+            "pay"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "traffic violation court hearing QR phishing",
+          "all": [
+            "traffic violation",
+            "court"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "parking ticket QR payment phishing",
+          "all": [
+            "parking",
+            "qr code"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "ezpass toll smishing link",
+          "all": [
+            "e-zpass",
+            "pay"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "medicare flex card personal info harvest",
+          "all": [
+            "medicare flex",
+            "number"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "medicare flex card cold enrollment",
+          "all": [
+            "flex card",
+            "medicare"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "jury duty arrest pay-now scam",
+          "all": [
+            "jury duty",
+            "arrest"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "jury duty fine gift card",
+          "all": [
+            "jury duty",
+            "gift card"
+          ],
+          "high_confidence": true
         }
       ],
-      "gemini_snippet": "[GOV_OTA] IRS/SSA plus 'digital arrest' / international warrant scripts: Interpol/Europol/consulate impersonators isolate victims ('house arrest', secrecy), push Bitcoin/crypto ATM payments or transfers to a 'safe'/'verification' account, and claim bank staff are compromised. Real agencies never demand gift cards, crypto, or ATM cash-ins. Also flag US credit-card digital-arrest imports: Amex/Wells Fargo 'fraud' calls that accuse a shame crime, warm-transfer to fake FBI/police, then Webex check-ins and orders not to enter a real station. Hang up; call the number on the card; tell someone — real digital arrest does not exist."
+      "gemini_snippet": "[GOV_OTA] IRS/SSA plus 'digital arrest' / international warrant scripts: Interpol/Europol/consulate impersonators isolate victims ('house arrest', secrecy), push Bitcoin/crypto ATM payments or transfers to a 'safe'/'verification' account, and claim bank staff are compromised. Real agencies never demand gift cards, crypto, or ATM cash-ins. Also flag US credit-card digital-arrest imports: Amex/Wells Fargo 'fraud' calls that accuse a shame crime, warm-transfer to fake FBI/police, then Webex check-ins and orders not to enter a real station. Hang up; call the number on the card; tell someone — real digital arrest does not exist. [AARP] Also flag DMV/toll/traffic/parking smishing (pay link/QR/court hearing) and Medicare flex-card cold offers that ask for Medicare/SSN/bank data. Agencies do not text payment links; Medicare does not cold-issue flex cards."
     },
     "charity": {
       "context_cues": [
         "hurricane relief",
-        "disaster fund"
+        "disaster fund",
+        "veterans charity",
+        "cancer charity",
+        "disaster relief"
       ],
       "hits": [
         {
@@ -644,11 +906,27 @@
             "donate"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "veterans charity gift card ask",
+          "all": [
+            "veteran",
+            "gift card"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "cancer charity crypto donation",
+          "all": [
+            "cancer",
+            "bitcoin"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[CHARITY_OTA] Fake disaster-relief and Red Cross appeals that demand gift cards or crypto. Give only via official sites you type yourself."
     }
   },
   "signing_key_id": "vigil-ti-ed25519-v1",
-  "signature": "KdW94vltDCQEq0DUc3Kr4u6corXOtB4ipHo8cQ/INenLDGnsig+KytUgMZMyBh+LATcR+GPFc3Y7Jnu6kwRmDg=="
+  "signature": "eS4duhNUG8TMIuqAkA0hknqLwvWQJkCkhuZzOTnbuWhkU5K2dL9uyawY9EU5Q5Q6SfINKhRZM5jm1QWurctyCg=="
 }

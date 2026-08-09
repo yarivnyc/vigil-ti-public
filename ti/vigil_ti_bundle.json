@@ -1,8 +1,321 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-07",
-  "published_at": "2026-08-07T00:42:09Z",
+  "bundle_id": "2026-08-09",
+  "published_at": "2026-08-09T12:06:58Z",
   "bulletins": [
+    {
+      "id": "aarp-amazon-impostor",
+      "title": "Amazon impostor refund / account scams (AARP)",
+      "summary": "Fake Amazon calls/texts about unauthorized orders push remote access or refund overpayment tricks. Use the app — never a number from an unexpected message.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/latest-amazon-impostor-scams/",
+      "phrases": [
+        "Amazon account",
+        "unauthorized order",
+        "refund",
+        "remote access",
+        "send back the difference"
+      ]
+    },
+    {
+      "id": "aarp-apartment-rental",
+      "title": "Fake apartment rental ads (AARP)",
+      "summary": "Too-good listings ask for deposits/wire before touring. Never send money for a rental you have not seen via a verified landlord.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/apartment-rental-ads/",
+      "phrases": [
+        "wire the deposit",
+        "can't show the apartment",
+        "overseas landlord",
+        "security deposit before viewing"
+      ]
+    },
+    {
+      "id": "aarp-do-me-a-favor",
+      "title": "Do-me-a-favor boss / pastor gift-card scams (AARP)",
+      "summary": "Impersonated boss, coworker, or clergy asks you to buy gift cards and read the codes — promising to repay. Verify in person or via a known channel.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/do-me-a-favor/",
+      "phrases": [
+        "do me a favor",
+        "buy gift cards",
+        "read the numbers",
+        "I'll pay you back",
+        "are you available"
+      ]
+    },
+    {
+      "id": "aarp-gift-card-payment",
+      "title": "Gift card payment scams (AARP)",
+      "summary": "Criminals demand gift cards for taxes, tech support, government grants, or “do me a favor” boss/pastor scripts. Real agencies never take gift cards.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/gift-card-payment/",
+      "phrases": [
+        "gift card",
+        "read me the numbers",
+        "iTunes gift card",
+        "Google Play gift card",
+        "processing fee"
+      ]
+    },
+    {
+      "id": "aarp-gold-bar-courier-2024",
+      "title": "Gold-bar courier 'safekeeping' scams (AARP / FBI)",
+      "summary": "Impersonators (FTC, FBI, bank, tech support) claim accounts are hacked and instruct victims to liquidate savings, buy gold/silver bars, then hand them to a courier for 'safekeeping'. No legitimate agency or business asks for gold bars. Hang up; call known numbers; tell a trusted person.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/gold-bars/",
+      "phrases": [
+        "gold bars",
+        "gold bar",
+        "precious metals",
+        "buy gold",
+        "courier",
+        "safekeeping",
+        "safe storage",
+        "liquidate your assets",
+        "protect your wealth"
+      ]
+    },
+    {
+      "id": "aarp-grandparent",
+      "title": "Grandparent / family emergency scams (AARP)",
+      "summary": "Caller claims a grandchild/relative is in jail or stranded and needs bail/wire/gift cards — often with secrecy. Hang up and call the relative at a known number.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/grandparent/",
+      "phrases": [
+        "grandpa",
+        "grandma",
+        "bail money",
+        "don't tell mom",
+        "don't tell dad",
+        "in jail",
+        "stranded"
+      ]
+    },
+    {
+      "id": "aarp-jury-duty",
+      "title": "Jury duty scam calls (AARP)",
+      "summary": "Callers claim you missed jury duty and demand immediate payment or personal data to avoid arrest. Courts do not demand gift cards or crypto by phone.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/jury-duty/",
+      "phrases": [
+        "jury duty",
+        "missed jury",
+        "warrant for your arrest",
+        "pay the fine"
+      ]
+    },
+    {
+      "id": "aarp-medicare-flex-card-2024",
+      "title": "Medicare flex card identity / enrollment scams (AARP)",
+      "summary": "Cold calls and ads claim 'Medicare' is issuing flex cards with grocery/OTC cash. Original Medicare does not issue flex cards; some Advantage plans do for members. Impostors harvest Medicare numbers/SSNs or stealth-switch plans. Hang up on unsolicited Medicare callers; research plans via SHIP / Medicare.gov.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/medicare-flex-card/",
+      "phrases": [
+        "Medicare flex card",
+        "flex card",
+        "Medicare is giving",
+        "grocery allowance",
+        "qualify for a flex card",
+        "Medicare number",
+        "free Medicare card"
+      ]
+    },
+    {
+      "id": "aarp-money-mule",
+      "title": "Money mule recruitment scams (AARP)",
+      "summary": "Job-like offers ask you to receive and forward money/crypto. Moving money for strangers is a crime — walk away.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/money-mule-scams/",
+      "phrases": [
+        "receive money",
+        "forward the funds",
+        "payment processing job",
+        "keep a percentage"
+      ]
+    },
+    {
+      "id": "aarp-pig-butchering",
+      "title": "Pig-butchering investment grooming (AARP)",
+      "summary": "Relationship grooming leads to fake trading dashboards and pressure to deposit more or pay fees to withdraw “profits”. Paying to withdraw is always a scam.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/what-are-pig-butchering-scams/",
+      "phrases": [
+        "pig butchering",
+        "trading platform",
+        "pay tax to withdraw",
+        "guaranteed returns",
+        "account frozen"
+      ]
+    },
+    {
+      "id": "aarp-recovery-scams",
+      "title": "Recovery scams after fraud losses (AARP)",
+      "summary": "After a scam loss, new criminals pose as recovery agents/lawyers/IC3 and demand upfront fees. Real recovery does not require gift cards or crypto fees.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/recovery-scams/",
+      "phrases": [
+        "recover your money",
+        "recovery fee",
+        "fund recovery",
+        "we found your money",
+        "advance fee"
+      ]
+    },
+    {
+      "id": "aarp-romance",
+      "title": "Romance scams online (AARP)",
+      "summary": "Dating/social contacts love-bomb or slowly build trust then ask for money, gift cards, crypto, or off-app chats. Never send money to someone you have not met in safe circumstances.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/romance-scams/",
+      "phrases": [
+        "my love",
+        "deployed overseas",
+        "western union",
+        "can't video chat",
+        "send money"
+      ]
+    },
+    {
+      "id": "aarp-sweepstakes",
+      "title": "Sweepstakes and lottery scams (AARP)",
+      "summary": "Fake prize notices demand taxes/fees upfront via wire or gift card. Real lotteries do not ask you to pay to claim a prize.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/sweepstakes/",
+      "phrases": [
+        "you have won",
+        "claim your prize",
+        "pay the tax",
+        "lottery winnings",
+        "processing fee"
+      ]
+    },
+    {
+      "id": "aarp-tech-support",
+      "title": "Fake online tech support scams (AARP)",
+      "summary": "Pop-ups and cold calls impersonate Microsoft/Apple/Amazon and push remote access or gift-card “refunds”. Real companies do not cold-call about viruses.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/fake-online-tech-support/",
+      "phrases": [
+        "tech support",
+        "remote access",
+        "TeamViewer",
+        "AnyDesk",
+        "virus detected",
+        "refund gift card"
+      ]
+    },
+    {
+      "id": "aarp-toll-road-texts-2024",
+      "title": "Toll-road / E-ZPass / FasTrak smishing texts (AARP)",
+      "summary": "Scammers impersonate electronic toll systems (E-ZPass, FasTrak misspellings, state turnpike sites) with small unpaid-toll amounts and payment links. Carriers and toll agencies do not text payment links. Delete; pay only inside the official toll account portal.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/toll-road-texts/",
+      "phrases": [
+        "unpaid toll",
+        "E-ZPass",
+        "FasTrak",
+        "FastTrak Lane",
+        "pay your toll",
+        "late fee",
+        "keep your license",
+        "toll services"
+      ]
+    },
+    {
+      "id": "aarp-traffic-violation-texts-2026-05",
+      "title": "Fake DMV / traffic / parking violation texts (AARP Fraud Watch)",
+      "summary": "AARP and courts report a surge in texts claiming unpaid tolls, parking, or speeding tickets and demanding pay-by-link/QR or next-day court appearances. Goal is payment theft and credential harvesting. Never click or scan; verify only via the official court/agency site you type yourself. Helpline: 877-908-3360.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/fake-traffic-violation-texts/",
+      "phrases": [
+        "traffic violation",
+        "unpaid toll",
+        "parking violation",
+        "court hearing",
+        "final notice",
+        "civil infraction",
+        "scan the QR code",
+        "pay your fine",
+        "speeding ticket"
+      ]
+    },
+    {
+      "id": "aarp-usps-ups-smishing",
+      "title": "Fake USPS/UPS package smishing (AARP)",
+      "summary": "Texts claim a package is held for a small redelivery/customs fee via a link. Carriers do not text fee links — track only in the official app.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/fake-usps-ups-smishing-texts/",
+      "phrases": [
+        "package held",
+        "redelivery fee",
+        "customs fee",
+        "USPS",
+        "UPS",
+        "confirm your address"
+      ]
+    },
+    {
+      "id": "aarp-wrong-number-texts",
+      "title": "Wrong-number text scams (AARP)",
+      "summary": "Unsolicited wrong-number texts that build rapport then pivot to romance or investment. Do not continue the chat; block and report.",
+      "severity": "high",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/wrong-number-text-scams/",
+      "phrases": [
+        "wrong number",
+        "sorry wrong person",
+        "did I text the wrong",
+        "who is this"
+      ]
+    },
+    {
+      "id": "aarp-preferred-payments-2025",
+      "title": "Payment rails scammers prefer (AARP)",
+      "summary": "AARP highlights untraceable rails criminals push: bank transfer, cash/courier wrap, fake checks, crypto ATM, gift cards, gold bars, P2P apps, wires. Treat any stranger demand for these payment methods as a scam signal — especially with secrecy or urgency.",
+      "severity": "medium",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/preferred-ways-to-pay/",
+      "phrases": [
+        "gift cards",
+        "Bitcoin ATM",
+        "wrap cash",
+        "gold bars",
+        "wire transfer",
+        "safe account",
+        "processing fee"
+      ]
+    },
+    {
+      "id": "aarp-qr-codes",
+      "title": "QR code payment phishing (AARP)",
+      "summary": "Unexpected QR codes in texts, parking tickets, or posters can lead to credential/payment theft. Type official URLs yourself instead of scanning cold codes.",
+      "severity": "medium",
+      "source_name": "AARP Fraud Watch",
+      "source_url": "https://www.aarp.org/money/scams-fraud/qr-codes/",
+      "phrases": [
+        "scan the QR",
+        "QR code",
+        "pay by QR"
+      ]
+    },
     {
       "id": "uk-airline-compensation-scam-2026-04",
       "title": "UK Fake Airline Compensation / Flight Disruption Scams",
@@ -68,7 +381,37 @@
       "airline compensation",
       "flight disruption refund",
       "private message from airline support",
-      "compensation for cancelled flight"
+      "compensation for cancelled flight",
+      "traffic violation",
+      "unpaid toll",
+      "parking violation",
+      "court hearing",
+      "civil infraction",
+      "Medicare flex card",
+      "flex card",
+      "gold bars",
+      "gold bar",
+      "precious metals",
+      "safekeeping",
+      "E-ZPass",
+      "FasTrak",
+      "pay your toll",
+      "grocery allowance",
+      "qualify for a flex card",
+      "wrong number",
+      "do me a favor",
+      "bail money",
+      "package held",
+      "redelivery fee",
+      "pig butchering",
+      "recover your money",
+      "you have won",
+      "claim your prize",
+      "unauthorized order",
+      "money mule",
+      "scan the QR",
+      "love bombing",
+      "remote access"
     ],
     "add_compounds": [
       {
@@ -92,10 +435,80 @@
           "compensation",
           "refund"
         ]
+      },
+      {
+        "label": "Fake traffic / toll pay-by-link",
+        "all": [
+          "unpaid toll",
+          "pay"
+        ]
+      },
+      {
+        "label": "Traffic ticket court QR phishing",
+        "all": [
+          "traffic violation",
+          "court"
+        ]
+      },
+      {
+        "label": "Gold bar courier safekeeping",
+        "all": [
+          "gold bar",
+          "courier"
+        ]
+      },
+      {
+        "label": "Medicare flex card harvest",
+        "all": [
+          "medicare",
+          "flex card"
+        ]
+      },
+      {
+        "label": "Wrong-number rapport scam",
+        "all": [
+          "wrong number",
+          "who is this"
+        ]
+      },
+      {
+        "label": "Do-me-a-favor gift cards",
+        "all": [
+          "gift card",
+          "do me a favor"
+        ]
+      },
+      {
+        "label": "Grandparent bail secrecy",
+        "all": [
+          "jail",
+          "gift card"
+        ]
+      },
+      {
+        "label": "Package redelivery smishing",
+        "all": [
+          "package",
+          "fee"
+        ]
+      },
+      {
+        "label": "Prize claim fee",
+        "all": [
+          "prize",
+          "tax"
+        ]
+      },
+      {
+        "label": "Jury duty pay-now",
+        "all": [
+          "jury duty",
+          "arrest"
+        ]
       }
     ]
   },
-  "gemini_context_snippet": "This week's active consumer scam campaigns focus on sextortion extortion emails leveraging leaked breach data to demand Bitcoin payments, as well as AI-powered robocalls using caller ID spoofing and voice cloning to impersonate banks and request urgent credential verification. Also active: UK Take Five warning on fake airline compensation / flight-disruption refund DMs that harvest bank details.",
+  "gemini_context_snippet": "AARP Fraud Watch full-hub crawl (weekly): fake toll/traffic/DMV texts; gift-card and do-me-a-favor asks; grandparent/family emergency; tech-support remote access; USPS/UPS package-fee smishing; romance + pig-butchering; recovery-fee second hits; Medicare flex cards; gold-bar courier safekeeping; rental deposit-before-tour; jury-duty and sweepstakes fee traps; Amazon impostor refunds; QR phishing; money-mule jobs. Prefer official .gov / known numbers; never pay strangers with gift cards, gold, or crypto ATMs. Helpline context: AARP 877-908-3360.",
   "signing_key_id": "vigil-ti-ed25519-v1",
-  "signature": "DaBm1UMSuywgd1yJ8T0tq727UiMR/lJjrzQVV8b4fyNAPYYyKOOc7WSONXU6nY7Fr42FVawwZHes569oPbnGBA=="
+  "signature": "agUkwguLwQimsESib87n5gRien1qVy5CrVkwfNAi4NLNrIV8k0kM+uPTc0Gu/+Sinfwv5O+ywcdPGmh5nyWSDA=="
 }
