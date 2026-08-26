@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "bundle_id": "2026-08-07",
-  "published_at": "2026-08-07T00:09:08Z",
+  "published_at": "2026-08-24T15:47:59Z",
   "email_entries": [
     {
       "address": "cfo-payments@acme-corp-vendor.com",
@@ -2496,7 +2496,5 @@
       "source": "openphish",
       "trend_id": "openphish-feed"
     }
-  ],
-  "signing_key_id": "vigil-ti-ed25519-v1",
-  "signature": "Y3rLKixmuaqbYSx40iMeFrbR1FuoHVKcHFWz46xxQ34J/321H0HvN9exN4USsnjuRyWwmIJr+BzXaLxJzr8ICg=="
+  ]
 }
