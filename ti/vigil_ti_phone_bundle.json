@@ -10,6 +10,13 @@
       "note": "Use in Simulator Call Directory testing."
     },
     {
+      "e164": "10000000000",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "30 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "12013122220",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -66,6 +73,13 @@
       "note": "5 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "12398998516",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "29 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "12797599651",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -115,6 +129,13 @@
       "note": "25 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "13093129159",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "19 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "13213958702",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -162,6 +183,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "60 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "13218661778",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "25 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "13218661969",
@@ -260,6 +288,20 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "22 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "15555555555",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "25 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
+      "e164": "16012021025",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "36 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "16267610588",
@@ -402,6 +444,13 @@
       "note": "130 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18336625740",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "52 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "18336625747",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -528,6 +577,13 @@
       "note": "74 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18445151570",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "25 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "18445151619",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -554,6 +610,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-other",
       "note": "5 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18553572005",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "37 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18553572047",
@@ -591,6 +654,13 @@
       "note": "77 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18553572287",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "27 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "18555802449",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -610,6 +680,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "36 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18555802742",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "20 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18555835729",
@@ -808,6 +885,13 @@
       "note": "7 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18666661167",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "24 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "18666661207",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -827,6 +911,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-other",
       "note": "15 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18666661439",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "27 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18667712482",
@@ -869,6 +960,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "6 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18667714881",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "21 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18667715090",
@@ -988,6 +1086,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-calls-pretending-to-be-government-busine",
       "note": "18 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18775781736",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "24 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18775781922",
@@ -1256,6 +1361,13 @@
       "note": "23 FTC DNC complaints in window (unverified consumer reports)."
     },
     {
+      "e164": "18883104084",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "22 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
       "e164": "18883104337",
       "label": "Possible scam · Vigil",
       "source": "ftc_dnc",
@@ -1281,6 +1393,20 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-medical-prescriptions",
       "note": "30 FTC DNC complaints in window (unverified consumer reports)."
+    },
+    {
+      "e164": "18888600052",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "22 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
+    },
+    {
+      "e164": "18889050296",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "29 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18889050317",
