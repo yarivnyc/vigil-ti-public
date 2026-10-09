@@ -1,41 +1,22 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-08-24",
-  "published_at": "2026-08-24T12:00:00Z",
+  "bundle_id": "2026-10-05",
+  "published_at": "2026-10-05T12:00:00Z",
   "bulletins": [
     {
-      "id": "fake-microsoft-security-scan-2026-08",
-      "title": "Fake Microsoft Scans Push Antivirus Removal and Refund Scams",
-      "summary": "Fraudulent websites branded as Microsoft security scanners claim third-party antivirus software is unsupported and causing critical system errors. Victims are urged to uninstall their security tools and contact fake support agents for refunds, enabling remote access and financial theft.",
-      "severity": "high",
-      "source_name": "Malwarebytes",
-      "source_url": "https://www.malwarebytes.com/blog/threat-intel/2026/08/fake-microsoft-security-scans-trick-victims-into-uninstalling-their-antivirus",
-      "phrases": [
-        "Windows no longer supports third-party antivirus",
-        "uninstall your antivirus immediately",
-        "security scan found serious problems",
-        "browser sandbox is compromised",
-        "prepare for your refund call",
-        "install remote-access software"
-      ],
-      "typologies": [
-        "tech_support",
-        "financial_impersonation"
-      ]
-    },
-    {
-      "id": "veterans-savings-postcard-phish-2026-08",
-      "title": "Fake Veterans Savings Program Postcards Phish for Personal Info",
-      "summary": "Scammers send official-looking postcards falsely claiming recipients qualify for extra monthly military benefits under a nonexistent program. Responding to the mailers directs targets to fraudulent intake lines designed to steal identity and banking details.",
+      "id": "open-enrollment-scams-2026-10",
+      "title": "Open Enrollment Health Insurance and Medicare Scams",
+      "summary": "Scammers exploit the Open Enrollment window for Medicare and the health insurance Marketplace through spoofed calls and deceptive search results. Callers impersonate official programs and press consumers to confirm policy details, verify Medicare numbers, or pay upfront registration fees.",
       "severity": "medium",
       "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/08/how-spot-postcard-scam-targeting-veterans",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/09/what-know-ahead-open-enrollment-avoid-health-insurance-scams",
       "phrases": [
-        "Veterans Savings Program",
-        "qualify for extra monthly veterans benefits",
-        "claim your extra monthly benefits",
-        "postcard regarding your veteran benefits",
-        "veterans benefits department mailer"
+        "open enrollment period",
+        "medicare open enrollment",
+        "verify your medicare number",
+        "official government health plan",
+        "update your health coverage",
+        "select a new insurance plan"
       ],
       "typologies": [
         "government",
@@ -43,79 +24,80 @@
       ]
     },
     {
-      "id": "tax-debt-pennies-dollar-relief-2026-08",
-      "title": "Predatory Debt Relief Promises Settle Taxes for Pennies on the Dollar",
-      "summary": "Deceptive tax relief companies target consumers owing back taxes with unrealistic promises to eliminate debt before reviewing records. Scammers collect steep upfront service fees while leaving taxpayers in worse standing with authorities.",
-      "severity": "medium",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/08/struggling-tax-debt-heres-what-know",
+      "id": "bank-emergency-impersonation-2026-10",
+      "title": "Urgent Bank Compromise and Emergency Impersonation Calls",
+      "summary": "Perpetrators reach targets via phone and SMS claiming an urgent security crisis, such as a compromised bank account or an emergency involving a loved one. Callers manufacture high urgency to pressure victims into transferring funds or handing over banking credentials before verifying facts independently.",
+      "severity": "high",
+      "source_name": "CAFC",
+      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/spotting-fraud-reperer-fraude-eng.htm",
       "phrases": [
-        "settle your debt for pennies on the dollar",
-        "get rid of your tax debt",
-        "eliminate back taxes immediately",
-        "upfront service fee for tax relief",
-        "stop tax collection immediately"
+        "bank account has been compromised",
+        "loved one is in trouble",
+        "act immediately to avoid consequences",
+        "transfer funds immediately",
+        "unauthorized transactions on your account",
+        "participate in an ongoing investigation"
+      ],
+      "typologies": [
+        "financial_impersonation",
+        "family_emergency"
+      ]
+    },
+    {
+      "id": "investigator-recovery-fraud-2026-10",
+      "title": "Fake Bank Investigator and Recovery Fee Schemes",
+      "summary": "Callers pose as bank fraud department representatives or regulatory recovery agents contacting previous fraud victims. They state that stolen money has been located or that an account is frozen, demanding advance payments for administrative fees, deposits, or taxes before funds can be restored.",
+      "severity": "high",
+      "source_name": "CAFC",
+      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/07/impersonation-arnaqueurs-eng.htm",
+      "phrases": [
+        "fraud investigator from your bank",
+        "working with law enforcement",
+        "recover your lost funds",
+        "pay upfront recovery fee",
+        "unauthorized activity on your account",
+        "assist in recovering your money"
       ],
       "typologies": [
         "financial_impersonation",
         "government"
       ]
-    },
-    {
-      "id": "social-media-financial-sextortion-2026-08",
-      "title": "Social Media Honeytraps Extort Teens for Instant Digital Payments",
-      "summary": "Extortion rings pose as flirtatious peers on social platforms to coerce victims into sending compromising photographs. Scammers immediately threaten public exposure unless victims transmit rapid funds via digital cash apps or retail gift cards.",
-      "severity": "high",
-      "source_name": "NY Post",
-      "source_url": "https://nypost.com/2026/08/20/world-news/inside-sextortionists-twisted-world-of-black-magic-and-blood-sacrifice-which-are-killing-us-teens/",
-      "phrases": [
-        "send money via Cash App or gift cards",
-        "send payment or I will post these pictures",
-        "threatening to release your private photos",
-        "pay immediately to delete photos",
-        "send gift card codes right now"
-      ],
-      "typologies": [
-        "romance",
-        "social_engineering"
-      ]
     }
   ],
   "keyword_delta": {
     "add_phrases": [
-      "Veterans Savings Program",
-      "qualify for extra monthly veterans benefits",
-      "settle your debt for pennies on the dollar",
-      "Windows no longer supports third-party antivirus",
-      "uninstall your antivirus immediately",
-      "send money via Cash App or gift cards",
-      "threatening to release your private photos",
-      "install remote-access software"
+      "bank account has been compromised",
+      "loved one is in trouble",
+      "act immediately to avoid consequences",
+      "verify your medicare number",
+      "open enrollment period",
+      "recover your lost funds",
+      "fraud investigator from your bank",
+      "unauthorized transactions on your account"
     ],
     "add_compounds": [
       {
-        "label": "Tax relief guarantee",
+        "label": "Bank compromise investigation",
         "all": [
-          "pennies on the dollar",
-          "tax debt"
+          "compromised",
+          "investigation"
         ]
       },
       {
-        "label": "Fake security antivirus removal",
+        "label": "Medicare enrollment verification",
         "all": [
-          "uninstall",
-          "antivirus",
-          "refund"
+          "medicare",
+          "enrollment"
         ]
       },
       {
-        "label": "Veterans savings program phish",
+        "label": "Fund recovery fee",
         "all": [
-          "Veterans Savings Program",
-          "benefits"
+          "recover",
+          "funds"
         ]
       }
     ]
   },
-  "gemini_context_snippet": "Active campaigns this week include tech-support lures instructing users to uninstall antivirus for fake refunds, mailers promoting a fictitious 'Veterans Savings Program', tax settlement scams promising resolution for 'pennies on the dollar', and social media sextortion demanding Cash App payments."
+  "gemini_context_snippet": "Watch for incoming calls claiming a consumer's bank account has been compromised or demanding upfront fees to recover previously lost funds. Be alert to Open Enrollment health insurance callers seeking Medicare numbers and personal information under pressure."
 }
