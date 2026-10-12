@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-05",
-  "published_at": "2026-10-05T12:00:00Z",
+  "bundle_id": "2026-10-12",
+  "published_at": "2026-10-12T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -138,7 +138,9 @@
         "patriotic items",
         "wooden flag",
         "handmade merchandise",
-        "social media seller"
+        "social media seller",
+        "marketplace listing",
+        "still available for purchase"
       ],
       "hits": [
         {
@@ -235,6 +237,14 @@
             "wooden flag"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "fake marketplace listing conversation lure",
+          "all": [
+            "is this still available for purchase",
+            "marketplace listing"
+          ],
+          "high_confidence": false
         }
       ],
       "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup. Also: Google Business review extortion — fake negative reviews then pay-to-remove / \"hidden reviews\" threats from unsolicited digital marketers. Never pay; report reviews as fake/spam in Google."

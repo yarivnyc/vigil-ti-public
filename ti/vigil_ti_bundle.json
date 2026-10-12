@@ -1,103 +1,11 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-05",
-  "published_at": "2026-10-05T12:00:00Z",
-  "bulletins": [
-    {
-      "id": "open-enrollment-scams-2026-10",
-      "title": "Open Enrollment Health Insurance and Medicare Scams",
-      "summary": "Scammers exploit the Open Enrollment window for Medicare and the health insurance Marketplace through spoofed calls and deceptive search results. Callers impersonate official programs and press consumers to confirm policy details, verify Medicare numbers, or pay upfront registration fees.",
-      "severity": "medium",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/09/what-know-ahead-open-enrollment-avoid-health-insurance-scams",
-      "phrases": [
-        "open enrollment period",
-        "medicare open enrollment",
-        "verify your medicare number",
-        "official government health plan",
-        "update your health coverage",
-        "select a new insurance plan"
-      ],
-      "typologies": [
-        "government",
-        "social_engineering"
-      ]
-    },
-    {
-      "id": "bank-emergency-impersonation-2026-10",
-      "title": "Urgent Bank Compromise and Emergency Impersonation Calls",
-      "summary": "Perpetrators reach targets via phone and SMS claiming an urgent security crisis, such as a compromised bank account or an emergency involving a loved one. Callers manufacture high urgency to pressure victims into transferring funds or handing over banking credentials before verifying facts independently.",
-      "severity": "high",
-      "source_name": "CAFC",
-      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/spotting-fraud-reperer-fraude-eng.htm",
-      "phrases": [
-        "bank account has been compromised",
-        "loved one is in trouble",
-        "act immediately to avoid consequences",
-        "transfer funds immediately",
-        "unauthorized transactions on your account",
-        "participate in an ongoing investigation"
-      ],
-      "typologies": [
-        "financial_impersonation",
-        "family_emergency"
-      ]
-    },
-    {
-      "id": "investigator-recovery-fraud-2026-10",
-      "title": "Fake Bank Investigator and Recovery Fee Schemes",
-      "summary": "Callers pose as bank fraud department representatives or regulatory recovery agents contacting previous fraud victims. They state that stolen money has been located or that an account is frozen, demanding advance payments for administrative fees, deposits, or taxes before funds can be restored.",
-      "severity": "high",
-      "source_name": "CAFC",
-      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/07/impersonation-arnaqueurs-eng.htm",
-      "phrases": [
-        "fraud investigator from your bank",
-        "working with law enforcement",
-        "recover your lost funds",
-        "pay upfront recovery fee",
-        "unauthorized activity on your account",
-        "assist in recovering your money"
-      ],
-      "typologies": [
-        "financial_impersonation",
-        "government"
-      ]
-    }
-  ],
+  "bundle_id": "2026-10-12",
+  "published_at": "2026-10-12T12:00:00Z",
+  "bulletins": [],
   "keyword_delta": {
-    "add_phrases": [
-      "bank account has been compromised",
-      "loved one is in trouble",
-      "act immediately to avoid consequences",
-      "verify your medicare number",
-      "open enrollment period",
-      "recover your lost funds",
-      "fraud investigator from your bank",
-      "unauthorized transactions on your account"
-    ],
-    "add_compounds": [
-      {
-        "label": "Bank compromise investigation",
-        "all": [
-          "compromised",
-          "investigation"
-        ]
-      },
-      {
-        "label": "Medicare enrollment verification",
-        "all": [
-          "medicare",
-          "enrollment"
-        ]
-      },
-      {
-        "label": "Fund recovery fee",
-        "all": [
-          "recover",
-          "funds"
-        ]
-      }
-    ]
+    "add_phrases": [],
+    "add_compounds": []
   },
-  "gemini_context_snippet": "Watch for incoming calls claiming a consumer's bank account has been compromised or demanding upfront fees to recover previously lost funds. Be alert to Open Enrollment health insurance callers seeking Medicare numbers and personal information under pressure."
+  "gemini_context_snippet": "No major new consumer phone-scam campaigns or actionable calling scripts were reported in the feed window for this period. Recent advisories focused on corporate data breaches, state-sponsored cyber activity, and general Cyber Month awareness rather than specific consumer impersonation scripts."
 }
