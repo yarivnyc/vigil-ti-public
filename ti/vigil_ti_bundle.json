@@ -1,11 +1,108 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-12",
-  "published_at": "2026-10-12T12:00:00Z",
-  "bulletins": [],
+  "bundle_id": "2026-10-19",
+  "published_at": "2026-10-19T12:00:00Z",
+  "bulletins": [
+    {
+      "id": "ftc-open-enrollment-scams-2026-10",
+      "title": "Health Insurance and Medicare Open Enrollment Impersonation",
+      "summary": "During Open Enrollment, scammers use deceptive online ads and unsolicited calls posing as Medicare or ACA Marketplace representatives. Fraudsters claim that coverage will lapse or cards must be re-issued, pressing victims to verify numbers or pay immediate enrollment fees.",
+      "severity": "medium",
+      "source_name": "FTC",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/09/what-know-ahead-open-enrollment-avoid-health-insurance-scams",
+      "phrases": [
+        "medicare open enrollment deadline",
+        "verify your medicare number",
+        "official marketplace enrollment representative",
+        "keep your health coverage active",
+        "fee for new medicare card",
+        "update your health insurance information immediately"
+      ],
+      "typologies": [
+        "government",
+        "social_engineering"
+      ]
+    },
+    {
+      "id": "cafc-otp-account-takeover-2026-10",
+      "title": "Social Engineering Calls Intercepting One-Time Passcodes",
+      "summary": "Fraudsters initiate unauthorized logins to target accounts and immediately contact the victim by phone or text claiming to be bank security or service representatives. They create false urgency around unauthorized activity and instruct the victim to read back the verification code, completing an account takeover.",
+      "severity": "high",
+      "source_name": "CAFC",
+      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/out-accounts-pas-prendre-compte-eng.htm",
+      "phrases": [
+        "read back the one time passcode",
+        "security representative calling about your account",
+        "verify the code we just sent",
+        "temporary authorization code to verify identity",
+        "confirm the six digit security code",
+        "passcode sent to stop unauthorized access"
+      ],
+      "typologies": [
+        "financial_impersonation",
+        "social_engineering"
+      ]
+    },
+    {
+      "id": "cafc-ai-voice-urgent-impersonation-2026-10",
+      "title": "Urgent Impersonation and AI Voice Cloning Schemes",
+      "summary": "Callers deploy urgency and emotional pressure, increasingly incorporating AI-cloned voices to impersonate distressed family members, bank fraud investigators, or law enforcement. Victims are told an account has been compromised or a loved one faces arrest, demanding immediate funds or card handovers.",
+      "severity": "high",
+      "source_name": "CAFC",
+      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/spotting-fraud-reperer-fraude-eng.htm",
+      "phrases": [
+        "your bank account has been compromised",
+        "loved one is in trouble need bail",
+        "act immediately to avoid consequences",
+        "transfer money to protect your funds",
+        "fraud investigator working with police",
+        "family member in urgent distress"
+      ],
+      "typologies": [
+        "family_emergency",
+        "financial_impersonation",
+        "government"
+      ]
+    }
+  ],
   "keyword_delta": {
-    "add_phrases": [],
-    "add_compounds": []
+    "add_phrases": [
+      "read back the one time passcode",
+      "security representative calling about your account",
+      "verify the code we just sent",
+      "confirm the six digit security code",
+      "your bank account has been compromised",
+      "loved one is in trouble need bail",
+      "transfer money to protect your funds",
+      "verify your medicare number",
+      "medicare open enrollment deadline"
+    ],
+    "add_compounds": [
+      {
+        "label": "One-time passcode extraction attempt",
+        "all": [
+          "passcode",
+          "verify",
+          "code"
+        ]
+      },
+      {
+        "label": "Account compromise wire demand",
+        "all": [
+          "compromised",
+          "transfer",
+          "funds"
+        ]
+      },
+      {
+        "label": "Medicare enrollment impersonation",
+        "all": [
+          "medicare",
+          "enrollment",
+          "coverage"
+        ]
+      }
+    ]
   },
-  "gemini_context_snippet": "No major new consumer phone-scam campaigns or actionable calling scripts were reported in the feed window for this period. Recent advisories focused on corporate data breaches, state-sponsored cyber activity, and general Cyber Month awareness rather than specific consumer impersonation scripts."
+  "gemini_context_snippet": "Active phone scams emphasize social engineering to intercept one-time passcodes under the guise of fraud prevention, and urgent impersonation calls utilizing AI voice cloning to fake family crises or bank freezes. In addition, open enrollment season brings deceptive calls claiming Medicare or Marketplace coverage requires immediate verification or card fees."
 }

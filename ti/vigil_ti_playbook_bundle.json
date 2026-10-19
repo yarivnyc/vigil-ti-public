@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-12",
-  "published_at": "2026-10-12T12:00:00Z",
+  "bundle_id": "2026-10-19",
+  "published_at": "2026-10-19T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -341,7 +341,13 @@
         "workplace verification",
         "modeling agency",
         "job listing",
-        "test photo shoots"
+        "test photo shoots",
+        "remote online opportunity",
+        "reviewed your cv",
+        "assisting merchants",
+        "calendly interview",
+        "part time remote position",
+        "meta careers"
       ],
       "hits": [
         {
@@ -449,6 +455,31 @@
           "all": [
             "move conversations off linkedin",
             "share identity documents"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "task scam merchant review recruitment",
+          "all": [
+            "assisting merchants by providing product reviews",
+            "daily earnings range from"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "unsolicited job offer whatsapp redirection",
+          "all": [
+            "reviewed your cv",
+            "remote online opportunity",
+            "contact us via whatsapp"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "fake calendly interview credential harvester",
+          "all": [
+            "meta careers",
+            "calendly"
           ],
           "high_confidence": true
         }
@@ -708,7 +739,10 @@
         "connect wallet",
         "rewards distribution",
         "unclaimed tokens",
-        "boost"
+        "boost",
+        "fund his business",
+        "nasdaq ipo",
+        "god had chosen them"
       ],
       "hits": [
         {
@@ -921,6 +955,14 @@
             "burned after"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "affinity pre ipo startup fraud",
+          "all": [
+            "god had chosen them",
+            "fund his business"
+          ],
+          "high_confidence": false
         }
       ],
       "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming → fake trading dashboard → small 'profits' → pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees. [AARP] Gold-bar twist: hacked-account story → liquidate → buy gold/silver → courier picks up for 'safekeeping'. No agency asks for gold bars."

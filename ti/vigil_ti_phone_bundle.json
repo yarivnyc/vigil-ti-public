@@ -1,20 +1,13 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-12",
-  "published_at": "2026-10-12T12:00:00Z",
+  "bundle_id": "2026-10-19",
+  "published_at": "2026-10-19T12:00:00Z",
   "phone_entries": [
     {
       "e164": "12025550199",
       "label": "QA test number · Vigil",
       "source": "qa_fixture",
       "note": "Use in Simulator Call Directory testing."
-    },
-    {
-      "e164": "18559942159",
-      "label": "Possible scam · Vigil",
-      "source": "ftc_dnc",
-      "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
-      "note": "16 FTC DNC complaints in window (FTC DNC robocall: Reducing your debt (credit cards, mortgage, s…; unverified consumer reports)."
     },
     {
       "e164": "18586669980",
@@ -736,6 +729,13 @@
       "source": "ftc_dnc",
       "trend_id": "ftc-dnc-reducing-your-debt-credit-cards-mortgage",
       "note": "16 FTC DNC complaints in window (FTC DNC robocall: Reducing your debt (credit cards, mortgage, s…; unverified consumer reports)."
+    },
+    {
+      "e164": "18667717077",
+      "label": "Possible scam · Vigil",
+      "source": "fcc_cgb",
+      "trend_id": "fcc-cgb-advertiser",
+      "note": "23 FCC Unwanted Calls reports in window (advertiser; unverified consumer reports)."
     },
     {
       "e164": "18669476503",
