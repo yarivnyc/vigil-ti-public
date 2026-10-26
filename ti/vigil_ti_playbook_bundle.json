@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-19",
-  "published_at": "2026-10-19T12:00:00Z",
+  "bundle_id": "2026-10-26",
+  "published_at": "2026-10-26T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -347,7 +347,11 @@
         "assisting merchants",
         "calendly interview",
         "part time remote position",
-        "meta careers"
+        "meta careers",
+        "creator portal",
+        "brand collaboration",
+        "channel sponsorship",
+        "creator brief"
       ],
       "hits": [
         {
@@ -480,6 +484,14 @@
           "all": [
             "meta careers",
             "calendly"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "fake creator portal brand deal channel verification phishing",
+          "all": [
+            "creator portal",
+            "verify your channel"
           ],
           "high_confidence": true
         }
@@ -742,7 +754,10 @@
         "boost",
         "fund his business",
         "nasdaq ipo",
-        "god had chosen them"
+        "god had chosen them",
+        "pre-ipo shares",
+        "private stock allocation",
+        "unlisted tech investment"
       ],
       "hits": [
         {
@@ -963,6 +978,14 @@
             "fund his business"
           ],
           "high_confidence": false
+        },
+        {
+          "label": "pre-ipo private company share access lure",
+          "all": [
+            "pre ipo",
+            "before they went public"
+          ],
+          "high_confidence": false
         }
       ],
       "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming → fake trading dashboard → small 'profits' → pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees. [AARP] Gold-bar twist: hacked-account story → liquidate → buy gold/silver → courier picks up for 'safekeeping'. No agency asks for gold bars."
@@ -1113,7 +1136,11 @@
         "getting to know each other",
         "close friend",
         "bail out",
-        "liquidate savings"
+        "liquidate savings",
+        "secret account",
+        "fan outreach",
+        "celebrity direct message",
+        "management would shut down"
       ],
       "hits": [
         {
@@ -1301,6 +1328,14 @@
           "all": [
             "getting to know each other",
             "empty her retirement account"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "celebrity secret unverified account fan romance lure",
+          "all": [
+            "secret account",
+            "management discovered"
           ],
           "high_confidence": true
         }
