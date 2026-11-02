@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-10-26",
-  "published_at": "2026-10-26T12:00:00Z",
+  "bundle_id": "2026-11-02",
+  "published_at": "2026-11-02T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -539,7 +539,10 @@
         "run box",
         "device code",
         "verification page",
-        "sign in page"
+        "sign in page",
+        "repair your computer",
+        "opening powershell",
+        "verification steps"
       ],
       "hits": [
         {
@@ -688,6 +691,14 @@
             "open the document or join the meeting"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "clickfix powershell repair verification lure",
+          "all": [
+            "powershell",
+            "repair your computer"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[TECH_OTA] Recent tech-support scams: fake antivirus/subscription 'refunds' that need remote access, and gift-card demands to fix a device. Real companies never cold-call about viruses or refunds."
@@ -757,7 +768,8 @@
         "god had chosen them",
         "pre-ipo shares",
         "private stock allocation",
-        "unlisted tech investment"
+        "unlisted tech investment",
+        "private key"
       ],
       "hits": [
         {
@@ -986,6 +998,22 @@
             "before they went public"
           ],
           "high_confidence": false
+        },
+        {
+          "label": "crypto wallet recovery phrase theft",
+          "all": [
+            "recovery phrase",
+            "private keys"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "fake wallet support recovery phrase lure",
+          "all": [
+            "recovery phrase",
+            "wallet support"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[INVEST_OTA] Pig-butchering pattern (Operation Shamrock lifecycle): relationship grooming → fake trading dashboard → small 'profits' → pay tax/fee/upgrade or 'account frozen' hold to withdraw; pressure to liquidate retirement. Paying to withdraw/unfreeze is always a scam. Also flag upfront 'crypto recovery' fees. [AARP] Gold-bar twist: hacked-account story → liquidate → buy gold/silver → courier picks up for 'safekeeping'. No agency asks for gold bars."
@@ -1388,7 +1416,10 @@
         "holocaust claims center",
         "compensation claims",
         "government officials",
-        "official impersonation"
+        "official impersonation",
+        "voter registration",
+        "absentee list",
+        "election authority"
       ],
       "hits": [
         {
@@ -1613,6 +1644,14 @@
             "government officials"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "voter registration cancellation phishing lure",
+          "all": [
+            "registered to vote",
+            "registration is about to be cancelled"
+          ],
+          "high_confidence": false
         }
       ],
       "gemini_snippet": "[GOV_OTA] IRS/SSA plus 'digital arrest' / international warrant scripts: Interpol/Europol/consulate impersonators isolate victims ('house arrest', secrecy), push Bitcoin/crypto ATM payments or transfers to a 'safe'/'verification' account, and claim bank staff are compromised. Real agencies never demand gift cards, crypto, or ATM cash-ins. Also flag US credit-card digital-arrest imports: Amex/Wells Fargo 'fraud' calls that accuse a shame crime, warm-transfer to fake FBI/police, then Webex check-ins and orders not to enter a real station. Hang up; call the number on the card; tell someone — real digital arrest does not exist. [AARP] Also flag DMV/toll/traffic/parking smishing (pay link/QR/court hearing) and Medicare flex-card cold offers that ask for Medicare/SSN/bank data. Agencies do not text payment links; Medicare does not cold-issue flex cards."
