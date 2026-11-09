@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-11-02",
-  "published_at": "2026-11-02T12:00:00Z",
+  "bundle_id": "2026-11-09",
+  "published_at": "2026-11-09T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -28,7 +28,11 @@
         "rental car",
         "cruise booking",
         "travel itinerary",
-        "cabin reservation"
+        "cabin reservation",
+        "etias",
+        "travel authorization",
+        "european entry requirements",
+        "visa exempt"
       ],
       "hits": [
         {
@@ -107,6 +111,14 @@
             "fake agent booking numbers"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "unauthorized etias travel authorization fee scam",
+          "all": [
+            "etias",
+            "travel authorization"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[TRAVEL_OTA] Recent traveler-targeted scripts: airline 'cancelled flight' rebooking-fee texts, fake airline refunds pushed to gift cards, timeshare-exit upfront fees, and travel-insurance claim 'processing fees'. Treat upfront fees, gift-card/wire refunds, and off-official-channel airline/booking support as high risk; tell the user to verify via the airline app or the number on their ticket."
@@ -140,7 +152,12 @@
         "handmade merchandise",
         "social media seller",
         "marketplace listing",
-        "still available for purchase"
+        "still available for purchase",
+        "autotrader",
+        "used car",
+        "car title",
+        "lien",
+        "vehicle purchase"
       ],
       "hits": [
         {
@@ -245,6 +262,14 @@
             "marketplace listing"
           ],
           "high_confidence": false
+        },
+        {
+          "label": "private vehicle sale hidden lien repossession scam",
+          "all": [
+            "outstanding liens",
+            "repossessed"
+          ],
+          "high_confidence": false
         }
       ],
       "gemini_snippet": "Watch for marketplace overpay / fake shipping-label refunds and off-platform Zelle deposits before pickup. Also: Google Business review extortion — fake negative reviews then pay-to-remove / \"hidden reviews\" threats from unsolicited digital marketers. Never pay; report reviews as fake/spam in Google."
@@ -264,7 +289,10 @@
         "before viewing",
         "craigslist rental listing",
         "zillow rental duplicate",
-        "wire transfer lease payment"
+        "wire transfer lease payment",
+        "apartment rental",
+        "phony lease",
+        "landlord"
       ],
       "hits": [
         {
@@ -307,6 +335,14 @@
           "all": [
             "first and last month rent",
             "wire transfer"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "unauthorized broker fake lease deposit scam",
+          "all": [
+            "security deposits",
+            "phony leases"
           ],
           "high_confidence": true
         }
@@ -1037,7 +1073,12 @@
         "shipping rebate",
         "shipping fee",
         "rebates",
-        "membership charge"
+        "membership charge",
+        "shipping mistake",
+        "shipping label",
+        "shipping qr code",
+        "phone delivery",
+        "mobile provider"
       ],
       "hits": [
         {
@@ -1114,6 +1155,14 @@
             "recurring charge"
           ],
           "high_confidence": false
+        },
+        {
+          "label": "unsolicited device delivery bogus return label scam",
+          "all": [
+            "shipping mistake",
+            "send it back"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[DELIVERY_OTA] Smishing: 'your package is held, pay a small customs/redelivery fee via this link.' Carriers never text fee links; track only in the official app."

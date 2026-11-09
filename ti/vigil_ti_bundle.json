@@ -1,39 +1,22 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-11-02",
-  "published_at": "2026-11-02T15:27:33Z",
+  "bundle_id": "2026-11-09",
+  "published_at": "2026-11-09T15:28:52Z",
   "bulletins": [
     {
-      "id": "bank-fraud-department-impersonation-2026-11",
-      "title": "Bank Fraud Department Spoofed Call",
-      "summary": "Scammers spoof the bank's phone number or follow up on a fake fraud text alert, claiming to be an investigator from the fraud department. They claim unauthorized charges were made and press the victim for verification details or full account balances under the guise of reversing charges.",
-      "severity": "high",
-      "source_name": "Reddit · r/Scams",
-      "source_url": "https://www.reddit.com/r/Scams/comments/1xli1fq/that_aha_moment_when_he_kept_asking_my_account/",
-      "phrases": [
-        "calling from your bank fraud department",
-        "did you authorize this charge",
-        "cancel the card and reverse the charge",
-        "what is the balance of the account",
-        "make sure it has not been stolen",
-        "review a few other charges on your card",
-        "need to verify your account information"
-      ]
-    },
-    {
-      "id": "ftc-phone-deactivation-2026-10",
-      "title": "FTC Impersonators Threaten Phone Number Deactivation",
-      "summary": "Scammers pose as FTC officials claiming your phone number was registered under criminal activity overseas and cite fake badge numbers. They threaten immediate line deactivation unless you cooperate with their demands.",
+      "id": "ftc-phone-deactivation-imposter-2026-10",
+      "title": "Imposters Threatening Phone Deactivation Under Guise of FTC",
+      "summary": "Scammers call pretending to be Federal Trade Commission agents, citing fabricated badge numbers. They claim a phone registered in the victim's name is tied to overseas fraud and threaten immediate service deactivation if the victim refuses to cooperate.",
       "severity": "high",
       "source_name": "FTC",
       "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number",
       "phrases": [
-        "calling to deactivate your phone number",
-        "registered under your name and number",
-        "used to commit scams",
-        "calling from the federal trade commission",
-        "threaten to deactivate your phone number",
-        "verify my badge id"
+        "deactivate your phone number",
+        "registered under your name",
+        "commit scams in another country",
+        "FTC official calling",
+        "federal trade commission badge",
+        "badge ID number"
       ],
       "typologies": [
         "government",
@@ -41,18 +24,18 @@
       ]
     },
     {
-      "id": "take-five-uk-impersonation-2026-10",
-      "title": "Take Five UK: Impersonation Scams Mimicking Police and Banks",
-      "summary": "Criminals impersonate police officers, banks, and trusted authorities during unsolicited phone calls. Scammers spend time researching personal details to convince victims to transfer funds or share sensitive account data.",
+      "id": "take-five-impersonation-scams-2026-10",
+      "title": "Police and Official Impersonation Urging Account Transfers",
+      "summary": "Fraudsters contact consumers posing as police officers, banking staff, or trusted institutions. They use researched personal details and urgent pressure to persuade targets that their funds are at risk and must be moved or verified.",
       "severity": "high",
       "source_name": "Take Five UK",
-      "source_url": "https://www.takefive-stopfraud.org.uk/news/behind-the-mask-spotting-impersonation-scams-this-halloween/",
+      "source_url": "https://takefive-stopfraud.org.uk/news/behind-the-mask-spotting-impersonation-scams-this-halloween/",
       "phrases": [
-        "calling from the police",
-        "fraud department of your bank",
-        "move your money to a safe account",
-        "investigating fraud on your account",
-        "verify your bank security details"
+        "impersonating the police",
+        "transfer to a safe account",
+        "calling from the fraud department",
+        "police officer investigating fraud",
+        "account has been compromised"
       ],
       "typologies": [
         "financial_impersonation",
@@ -61,17 +44,17 @@
     },
     {
       "id": "ftc-charity-sweepstakes-2026-10",
-      "title": "Fake Charity Sweepstakes Prize Calls",
-      "summary": "Impersonators call claiming you have won a major sweepstakes contest sponsored by a charity you previously supported. Victims are pushed to confirm banking details or pay processing fees to claim the bogus prize.",
+      "title": "Fake Charity Sweepstakes and Prize Impersonation Calls",
+      "summary": "Callers falsely claim to represent legitimate charities that the victim previously supported, announcing a sweepstakes prize win. Scammers use the charity's reputation to lower defenses and demand fees, taxes, or banking information before prizes can be released.",
       "severity": "medium",
       "source_name": "FTC",
       "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes",
       "phrases": [
-        "won a charity sponsored sweepstakes",
-        "sweepstakes contest you have supposedly won",
-        "claim your sweepstakes prize",
-        "pay fees to claim your prize",
-        "calling from a charity you support"
+        "charity-sponsored sweepstakes",
+        "sweepstakes contest you've supposedly won",
+        "won a charity sweepstakes",
+        "charity you support",
+        "claim your sweepstakes prize"
       ],
       "typologies": [
         "charity",
@@ -79,75 +62,67 @@
       ]
     },
     {
-      "id": "ftc-open-enrollment-insurance-2026-10",
-      "title": "Misleading Open Enrollment Health Insurance Pitches",
-      "summary": "Callers capitalize on the health insurance open enrollment window by masquerading as government agencies or recognized insurers. They pitch non-compliant medical discount cards falsely framed as comprehensive health plans.",
+      "id": "ftc-open-enrollment-health-pitches-2026-10",
+      "title": "Misleading Health Insurance and Marketplace Discount Pitches",
+      "summary": "Telemarketers and imposters exploit the open enrollment period to push deceptive healthcare plans and medical discount cards over the phone. Callers often pretend to represent the government exchange or major insurers while peddling non-compliant coverage.",
       "severity": "medium",
       "source_name": "FTC",
       "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/10/seeing-lots-ads-health-insurance-plans-during-open-enrollment-read",
       "phrases": [
-        "open enrollment health insurance",
-        "health insurance marketplace enrollment",
-        "comprehensive health insurance plan",
-        "medical discount card coverage",
-        "official marketplace enrollment center"
+        "Health Insurance Marketplace",
+        "comprehensive health insurance",
+        "medical discount cards",
+        "open enrollment period",
+        "government health insurance plan"
       ],
       "typologies": [
-        "government",
-        "social_engineering"
+        "financial_impersonation",
+        "government"
       ]
     }
   ],
   "keyword_delta": {
     "add_phrases": [
-      "calling to deactivate your phone number",
-      "registered under your name and number",
-      "used to commit scams",
-      "calling from the federal trade commission",
-      "move your money to a safe account",
-      "won a charity sponsored sweepstakes",
-      "claim your sweepstakes prize",
-      "health insurance marketplace enrollment",
-      "medical discount card coverage",
-      "calling from your bank fraud department",
-      "cancel the card and reverse the charge",
-      "what is the balance of the account",
-      "did you authorize this charge"
+      "deactivate your phone number",
+      "commit scams in another country",
+      "registered under your name",
+      "transfer to a safe account",
+      "calling from the fraud department",
+      "charity-sponsored sweepstakes",
+      "sweepstakes contest you've supposedly won",
+      "Health Insurance Marketplace",
+      "medical discount cards"
     ],
     "add_compounds": [
       {
-        "label": "FTC line deactivation threat",
+        "label": "ftc_phone_deactivation",
         "all": [
-          "ftc",
           "deactivate",
-          "phone"
+          "badge"
         ]
       },
       {
-        "label": "Charity sweepstakes fee scam",
-        "all": [
-          "charity",
-          "sweepstakes",
-          "prize"
-        ]
-      },
-      {
-        "label": "Impersonation safe account transfer",
+        "label": "police_safe_account",
         "all": [
           "police",
-          "safe",
-          "transfer"
+          "safe account"
         ]
       },
       {
-        "label": "bank fraud department impersonation",
+        "label": "charity_sweepstakes",
         "all": [
-          "fraud department",
-          "reverse the charge",
-          "balance"
+          "charity",
+          "sweepstakes"
+        ]
+      },
+      {
+        "label": "health_marketplace_discount",
+        "all": [
+          "marketplace",
+          "discount card"
         ]
       }
     ]
   },
-  "gemini_context_snippet": "Community reports this week: Bank Fraud Department Spoofed Call. Active phone campaigns involve FTC impersonators threatening immediate phone number deactivation over purported overseas scam registrations. Beware of open enrollment cold calls pitching medical discount cards as health insurance and charity sweepstakes calls demanding fees. UK callers also face heightened impersonation schemes mimicking police and bank fraud squads demanding transfers to safe accounts."
+  "gemini_context_snippet": "Watch for callers claiming to be FTC agents threatening phone service deactivation over overseas fraud accusations, or police imposters demanding transfers to secure accounts. Be alert to open-enrollment health insurance sales calls pushing medical discount cards and unexpected calls claiming prizes in charity-linked sweepstakes."
 }
