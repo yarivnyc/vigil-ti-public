@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-11-09",
-  "published_at": "2026-11-09T12:00:00Z",
+  "bundle_id": "2026-11-16",
+  "published_at": "2026-11-16T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -578,7 +578,11 @@
         "sign in page",
         "repair your computer",
         "opening powershell",
-        "verification steps"
+        "verification steps",
+        "microsoft outage",
+        "restore access",
+        "it provider",
+        "service outage"
       ],
       "hits": [
         {
@@ -733,6 +737,14 @@
           "all": [
             "powershell",
             "repair your computer"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "service outage tech support restoration scam",
+          "all": [
+            "restore your services",
+            "regain access"
           ],
           "high_confidence": true
         }

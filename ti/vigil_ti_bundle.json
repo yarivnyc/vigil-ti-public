@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-11-09",
-  "published_at": "2026-11-09T15:28:52Z",
+  "bundle_id": "2026-11-16",
+  "published_at": "2026-11-16T15:29:31Z",
   "bulletins": [
     {
-      "id": "ftc-phone-deactivation-imposter-2026-10",
-      "title": "Imposters Threatening Phone Deactivation Under Guise of FTC",
-      "summary": "Scammers call pretending to be Federal Trade Commission agents, citing fabricated badge numbers. They claim a phone registered in the victim's name is tied to overseas fraud and threaten immediate service deactivation if the victim refuses to cooperate.",
+      "id": "ftc-va-benefits-scam-2026-11",
+      "title": "Imposters Target Veterans with VA Benefit Promises and Upfront Fees",
+      "summary": "Scammers contact veterans via calls, texts, or direct messages claiming to represent the Department of Veterans Affairs. They charge illegal upfront fees and make deceptive promises to expedite claims or guarantee a 100% disability rating.",
       "severity": "high",
       "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/10/ftc-not-calling-deactivate-your-phone-number",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/11/three-new-tactics-scammers-use-go-after-va-benefits",
       "phrases": [
-        "deactivate your phone number",
-        "registered under your name",
-        "commit scams in another country",
-        "FTC official calling",
-        "federal trade commission badge",
-        "badge ID number"
+        "Department of Veterans Affairs",
+        "100% disability rating",
+        "fast-track your benefits claim",
+        "upfront fee for benefits",
+        "expedite your VA claim",
+        "guarantee your disability rating"
       ],
       "typologies": [
         "government",
@@ -24,105 +24,101 @@
       ]
     },
     {
-      "id": "take-five-impersonation-scams-2026-10",
-      "title": "Police and Official Impersonation Urging Account Transfers",
-      "summary": "Fraudsters contact consumers posing as police officers, banking staff, or trusted institutions. They use researched personal details and urgent pressure to persuade targets that their funds are at risk and must be moved or verified.",
+      "id": "take-five-microsoft-outage-2026-11",
+      "title": "Tech Support Scams Exploiting Microsoft Outage",
+      "summary": "Criminals take advantage of recent Microsoft service outages to contact consumers and businesses offering help to restore access. Fraudsters impersonate IT support, banks, or police to gain remote device access or steal credentials.",
       "severity": "high",
       "source_name": "Take Five UK",
-      "source_url": "https://takefive-stopfraud.org.uk/news/behind-the-mask-spotting-impersonation-scams-this-halloween/",
+      "source_url": "https://www.takefive-stopfraud.org.uk/news/scam-alert-microsoft-outage/",
       "phrases": [
-        "impersonating the police",
-        "transfer to a safe account",
-        "calling from the fraud department",
-        "police officer investigating fraud",
-        "account has been compromised"
+        "help you regain access",
+        "restore your services",
+        "Microsoft service outage",
+        "calling from IT support",
+        "resolve your outage issue",
+        "regain access to your account"
       ],
       "typologies": [
-        "financial_impersonation",
-        "government"
-      ]
-    },
-    {
-      "id": "ftc-charity-sweepstakes-2026-10",
-      "title": "Fake Charity Sweepstakes and Prize Impersonation Calls",
-      "summary": "Callers falsely claim to represent legitimate charities that the victim previously supported, announcing a sweepstakes prize win. Scammers use the charity's reputation to lower defenses and demand fees, taxes, or banking information before prizes can be released.",
-      "severity": "medium",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/10/spot-scammers-impersonating-well-known-charities-and-sweepstakes",
-      "phrases": [
-        "charity-sponsored sweepstakes",
-        "sweepstakes contest you've supposedly won",
-        "won a charity sweepstakes",
-        "charity you support",
-        "claim your sweepstakes prize"
-      ],
-      "typologies": [
-        "charity",
+        "tech_support",
         "social_engineering"
       ]
     },
     {
-      "id": "ftc-open-enrollment-health-pitches-2026-10",
-      "title": "Misleading Health Insurance and Marketplace Discount Pitches",
-      "summary": "Telemarketers and imposters exploit the open enrollment period to push deceptive healthcare plans and medical discount cards over the phone. Callers often pretend to represent the government exchange or major insurers while peddling non-compliant coverage.",
-      "severity": "medium",
-      "source_name": "FTC",
-      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/10/seeing-lots-ads-health-insurance-plans-during-open-enrollment-read",
+      "id": "cafc-mfa-passcode-interception-2026-11",
+      "title": "MFA One-Time Passcode Social Engineering",
+      "summary": "Fraudsters initiate unauthorized logins to trigger genuine two-factor authentication codes to a victim's device. Posing as security representatives or customer support, they call or message to demand the passcode under the guise of stopping fraud.",
+      "severity": "high",
+      "source_name": "CAFC",
+      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/out-accounts-pas-prendre-compte-eng.htm",
       "phrases": [
-        "Health Insurance Marketplace",
-        "comprehensive health insurance",
-        "medical discount cards",
-        "open enrollment period",
-        "government health insurance plan"
+        "provide the one-time passcode",
+        "verification code sent to your phone",
+        "read back the one-time code",
+        "security representative from your bank",
+        "problem with your account",
+        "confirm the authentication code"
       ],
       "typologies": [
         "financial_impersonation",
-        "government"
+        "social_engineering"
+      ]
+    },
+    {
+      "id": "ftc-fake-websites-impersonators-2026-11",
+      "title": "Fake FTC Websites and Agency Impersonation Calls",
+      "summary": "Scammers impersonate the Federal Trade Commission through spoofed calls and fraudulent copycat websites. They falsely tell victims they are under investigation or eligible for a cash settlement, demanding fees or personal information.",
+      "severity": "high",
+      "source_name": "FTC",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/11/how-spot-fake-ftc-websites-and-ftc-impersonators",
+      "phrases": [
+        "calling from the Federal Trade Commission",
+        "official FTC notice",
+        "claim your FTC settlement",
+        "verify your FTC case",
+        "urgent notice from the FTC"
+      ],
+      "typologies": [
+        "government",
+        "financial_impersonation"
       ]
     }
   ],
   "keyword_delta": {
     "add_phrases": [
-      "deactivate your phone number",
-      "commit scams in another country",
-      "registered under your name",
-      "transfer to a safe account",
-      "calling from the fraud department",
-      "charity-sponsored sweepstakes",
-      "sweepstakes contest you've supposedly won",
-      "Health Insurance Marketplace",
-      "medical discount cards"
+      "100% disability rating",
+      "fast-track your benefits claim",
+      "upfront fee for benefits",
+      "help you regain access",
+      "restore your services",
+      "calling from IT support",
+      "provide the one-time passcode",
+      "verification code sent to your phone",
+      "calling from the Federal Trade Commission",
+      "claim your FTC settlement"
     ],
     "add_compounds": [
       {
-        "label": "ftc_phone_deactivation",
+        "label": "va_benefits_advance_fee",
         "all": [
-          "deactivate",
-          "badge"
+          "disability rating",
+          "upfront fee"
         ]
       },
       {
-        "label": "police_safe_account",
+        "label": "outage_remote_support",
         "all": [
-          "police",
-          "safe account"
+          "outage",
+          "regain access"
         ]
       },
       {
-        "label": "charity_sweepstakes",
+        "label": "mfa_security_representative",
         "all": [
-          "charity",
-          "sweepstakes"
-        ]
-      },
-      {
-        "label": "health_marketplace_discount",
-        "all": [
-          "marketplace",
-          "discount card"
+          "passcode",
+          "security representative"
         ]
       }
     ]
   },
-  "gemini_context_snippet": "Watch for callers claiming to be FTC agents threatening phone service deactivation over overseas fraud accusations, or police imposters demanding transfers to secure accounts. Be alert to open-enrollment health insurance sales calls pushing medical discount cards and unexpected calls claiming prizes in charity-linked sweepstakes."
+  "gemini_context_snippet": "Watch for callers claiming to fast-track VA benefits or guarantee higher disability ratings in exchange for upfront fees. Be cautious of unsolicited calls offering IT support to fix Microsoft service outages, and never disclose one-time MFA verification passcodes to inbound callers claiming to be security representatives."
 }
