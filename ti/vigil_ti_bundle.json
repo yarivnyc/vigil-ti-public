@@ -1,22 +1,63 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-11-16",
-  "published_at": "2026-11-16T15:29:31Z",
+  "bundle_id": "2026-11-23",
+  "published_at": "2026-11-23T12:00:00Z",
   "bulletins": [
     {
-      "id": "ftc-va-benefits-scam-2026-11",
-      "title": "Imposters Target Veterans with VA Benefit Promises and Upfront Fees",
-      "summary": "Scammers contact veterans via calls, texts, or direct messages claiming to represent the Department of Veterans Affairs. They charge illegal upfront fees and make deceptive promises to expedite claims or guarantee a 100% disability rating.",
+      "id": "take-five-microsoft-outage-2026-11",
+      "title": "Microsoft Outage Tech Support Impersonation",
+      "summary": "Scammers are exploiting recent Microsoft outages by contacting consumers and businesses offering fake assistance. Posing as IT help desks, banks, or police, they attempt to gain remote access, steal account credentials, or extract payments under the guise of restoring services.",
+      "severity": "high",
+      "source_name": "Take Five UK",
+      "source_url": "https://www.takefive-stopfraud.org.uk/news/scam-alert-microsoft-outage/",
+      "phrases": [
+        "help you regain access",
+        "restore your services",
+        "microsoft service outage",
+        "service outage support",
+        "technical support assistance",
+        "regain account access"
+      ],
+      "typologies": [
+        "tech_support",
+        "financial_impersonation"
+      ]
+    },
+    {
+      "id": "ftc-grandkid-emergency-2026-11",
+      "title": "Grandparent and Family Emergency Phone Scams",
+      "summary": "Callers pose as panicked grandchildren or relatives claiming to be in an urgent crisis, such as an arrest or car accident. They plead for immediate bail or emergency funds while pressuring the victim to keep the call secret from other family members.",
+      "severity": "high",
+      "source_name": "FTC",
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/11/grandpa-i-need-your-help-how-spot-and-avoid-grandkid-scams",
+      "phrases": [
+        "grandpa i need your help",
+        "im in trouble",
+        "i need money now",
+        "dont tell anyone",
+        "urgent money for bail",
+        "family emergency money",
+        "need immediate help"
+      ],
+      "typologies": [
+        "family_emergency",
+        "social_engineering"
+      ]
+    },
+    {
+      "id": "ftc-va-benefits-scams-2026-11",
+      "title": "VA Disability and Benefits Fast-Tracking Fraud",
+      "summary": "Fraudsters contact military veterans via phone, SMS, and direct message impersonating Department of Veterans Affairs personnel. They demand upfront fees with deceptive promises to guarantee a 100 percent disability rating or fast-track pending benefit claims.",
       "severity": "high",
       "source_name": "FTC",
       "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/11/three-new-tactics-scammers-use-go-after-va-benefits",
       "phrases": [
-        "Department of Veterans Affairs",
-        "100% disability rating",
-        "fast-track your benefits claim",
+        "department of veterans affairs",
+        "fast tracking your benefits claim",
+        "100 percent disability rating",
         "upfront fee for benefits",
-        "expedite your VA claim",
-        "guarantee your disability rating"
+        "increase your va rating",
+        "va claim assistance fee"
       ],
       "typologies": [
         "government",
@@ -24,58 +65,19 @@
       ]
     },
     {
-      "id": "take-five-microsoft-outage-2026-11",
-      "title": "Tech Support Scams Exploiting Microsoft Outage",
-      "summary": "Criminals take advantage of recent Microsoft service outages to contact consumers and businesses offering help to restore access. Fraudsters impersonate IT support, banks, or police to gain remote device access or steal credentials.",
-      "severity": "high",
-      "source_name": "Take Five UK",
-      "source_url": "https://www.takefive-stopfraud.org.uk/news/scam-alert-microsoft-outage/",
-      "phrases": [
-        "help you regain access",
-        "restore your services",
-        "Microsoft service outage",
-        "calling from IT support",
-        "resolve your outage issue",
-        "regain access to your account"
-      ],
-      "typologies": [
-        "tech_support",
-        "social_engineering"
-      ]
-    },
-    {
-      "id": "cafc-mfa-passcode-interception-2026-11",
-      "title": "MFA One-Time Passcode Social Engineering",
-      "summary": "Fraudsters initiate unauthorized logins to trigger genuine two-factor authentication codes to a victim's device. Posing as security representatives or customer support, they call or message to demand the passcode under the guise of stopping fraud.",
-      "severity": "high",
-      "source_name": "CAFC",
-      "source_url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/10/out-accounts-pas-prendre-compte-eng.htm",
-      "phrases": [
-        "provide the one-time passcode",
-        "verification code sent to your phone",
-        "read back the one-time code",
-        "security representative from your bank",
-        "problem with your account",
-        "confirm the authentication code"
-      ],
-      "typologies": [
-        "financial_impersonation",
-        "social_engineering"
-      ]
-    },
-    {
-      "id": "ftc-fake-websites-impersonators-2026-11",
-      "title": "Fake FTC Websites and Agency Impersonation Calls",
-      "summary": "Scammers impersonate the Federal Trade Commission through spoofed calls and fraudulent copycat websites. They falsely tell victims they are under investigation or eligible for a cash settlement, demanding fees or personal information.",
-      "severity": "high",
+      "id": "ftc-impersonator-scams-2026-11",
+      "title": "Federal Trade Commission Agency Impersonators",
+      "summary": "Imposters pose as Federal Trade Commission agents using fraudulent phone calls, messages, and spoofed websites. They convince targets that their identity has been compromised or that funds can be recovered if they transfer funds or disclose financial details.",
+      "severity": "medium",
       "source_name": "FTC",
       "source_url": "https://consumer.ftc.gov/consumer-alerts/2026/11/how-spot-fake-ftc-websites-and-ftc-impersonators",
       "phrases": [
-        "calling from the Federal Trade Commission",
-        "official FTC notice",
-        "claim your FTC settlement",
-        "verify your FTC case",
-        "urgent notice from the FTC"
+        "federal trade commission agent",
+        "ftc investigation officer",
+        "official ftc notice",
+        "fake ftc website",
+        "recover lost funds",
+        "verify with the ftc"
       ],
       "typologies": [
         "government",
@@ -85,40 +87,42 @@
   ],
   "keyword_delta": {
     "add_phrases": [
-      "100% disability rating",
-      "fast-track your benefits claim",
-      "upfront fee for benefits",
+      "grandpa i need your help",
+      "dont tell anyone",
+      "fast tracking your benefits claim",
+      "100 percent disability rating",
       "help you regain access",
       "restore your services",
-      "calling from IT support",
-      "provide the one-time passcode",
-      "verification code sent to your phone",
-      "calling from the Federal Trade Commission",
-      "claim your FTC settlement"
+      "department of veterans affairs",
+      "federal trade commission agent",
+      "urgent money for bail"
     ],
     "add_compounds": [
       {
-        "label": "va_benefits_advance_fee",
+        "label": "grandparent bail emergency",
         "all": [
-          "disability rating",
-          "upfront fee"
+          "grandpa",
+          "trouble",
+          "money"
         ]
       },
       {
-        "label": "outage_remote_support",
+        "label": "va benefits claim fee",
+        "all": [
+          "disability",
+          "rating",
+          "fee"
+        ]
+      },
+      {
+        "label": "outage support recovery",
         "all": [
           "outage",
-          "regain access"
-        ]
-      },
-      {
-        "label": "mfa_security_representative",
-        "all": [
-          "passcode",
-          "security representative"
+          "restore",
+          "access"
         ]
       }
     ]
   },
-  "gemini_context_snippet": "Watch for callers claiming to fast-track VA benefits or guarantee higher disability ratings in exchange for upfront fees. Be cautious of unsolicited calls offering IT support to fix Microsoft service outages, and never disclose one-time MFA verification passcodes to inbound callers claiming to be security representatives."
+  "gemini_context_snippet": "Active phone scams this week feature urgent family emergency calls claiming a grandchild needs bail, alongside service outage tech support impersonation and fraudulent VA representatives demanding upfront fees to increase disability ratings."
 }

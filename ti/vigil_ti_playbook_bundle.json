@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "bundle_id": "2026-11-16",
-  "published_at": "2026-11-16T12:00:00Z",
+  "bundle_id": "2026-11-23",
+  "published_at": "2026-11-23T12:00:00Z",
   "playbooks": {
     "travel": {
       "context_cues": [
@@ -157,7 +157,11 @@
         "used car",
         "car title",
         "lien",
-        "vehicle purchase"
+        "vehicle purchase",
+        "holiday shopping",
+        "fake storefront",
+        "hard to find item",
+        "online store"
       ],
       "hits": [
         {
@@ -268,6 +272,14 @@
           "all": [
             "outstanding liens",
             "repossessed"
+          ],
+          "high_confidence": false
+        },
+        {
+          "label": "fake ai storefront non delivery lure",
+          "all": [
+            "fake storefronts",
+            "never arrived"
           ],
           "high_confidence": false
         }
@@ -387,7 +399,12 @@
         "creator portal",
         "brand collaboration",
         "channel sponsorship",
-        "creator brief"
+        "creator brief",
+        "remote assistant",
+        "work from home",
+        "amazon hiring",
+        "package handling",
+        "parcel mule"
       ],
       "hits": [
         {
@@ -530,6 +547,22 @@
             "verify your channel"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "amazon remote assistant reshipping scam",
+          "all": [
+            "remote assistant",
+            "receive packages"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "work from home parcel mule vehicle dispatch lure",
+          "all": [
+            "personal vehicle",
+            "receive shipments"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[JOB_OTA] Watch for task/commission apps that require a deposit or 'recharge' to withdraw, recruiters moving to WhatsApp/Telegram, and any upfront fee for training, equipment, or a background check. Real jobs never charge to get hired."
@@ -582,7 +615,8 @@
         "microsoft outage",
         "restore access",
         "it provider",
-        "service outage"
+        "service outage",
+        "regain access"
       ],
       "hits": [
         {
@@ -747,6 +781,22 @@
             "regain access"
           ],
           "high_confidence": true
+        },
+        {
+          "label": "service outage recovery impersonation",
+          "all": [
+            "service outage",
+            "restore your services"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "unsolicited account access restoration lure",
+          "all": [
+            "regain access",
+            "restore your services"
+          ],
+          "high_confidence": true
         }
       ],
       "gemini_snippet": "[TECH_OTA] Recent tech-support scams: fake antivirus/subscription 'refunds' that need remote access, and gift-card demands to fix a device. Real companies never cold-call about viruses or refunds."
@@ -817,7 +867,11 @@
         "pre-ipo shares",
         "private stock allocation",
         "unlisted tech investment",
-        "private key"
+        "private key",
+        "cryptocurrency giveaway",
+        "livestream offer",
+        "profitable investment opportunity",
+        "recovery service"
       ],
       "hits": [
         {
@@ -1060,6 +1114,30 @@
           "all": [
             "recovery phrase",
             "wallet support"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "crypto giveaway double money scam",
+          "all": [
+            "send cryptocurrency",
+            "twice as much back"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "crypto investment retirement liquidation lure",
+          "all": [
+            "profitable investment opportunity",
+            "liquidate retirement savings"
+          ],
+          "high_confidence": true
+        },
+        {
+          "label": "fake fbi agent crypto recovery dm scam",
+          "all": [
+            "recovery scam",
+            "fbi agent sending you a dm"
           ],
           "high_confidence": true
         }
