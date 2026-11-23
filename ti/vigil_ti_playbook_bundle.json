@@ -412,7 +412,7 @@
           "all": [
             "forward",
             "payment",
-            "keep"
+            "keep a percentage"
           ],
           "high_confidence": true
         },
